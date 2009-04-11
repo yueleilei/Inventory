@@ -3,10 +3,10 @@ LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,x
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 15 30
+Sheet 16 31
 Title "freeEMS 1.0"
-Date "27 jul 2008"
-Rev "A.01"
+Date "1 aug 2008"
+Rev "A.03"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""

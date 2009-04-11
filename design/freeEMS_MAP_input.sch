@@ -3,18 +3,52 @@ LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,x
 EELAYER 23  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 26 30
+Sheet 27 31
 Title "freeEMS 1.0"
-Date "27 jul 2008"
-Rev "A.01"
+Date "1 aug 2008"
+Rev "A.03"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 2400 3350 0    60   BiDi
-analog_sensor_gnd
+Connection ~ 2850 1600
+Wire Wire Line
+	2850 1600 2850 3350
+Wire Wire Line
+	4450 3550 4200 3550
+Wire Wire Line
+	4200 3550 4200 3750
+Wire Wire Line
+	4450 3350 2850 3350
+Wire Wire Line
+	2700 2950 4150 2950
+Wire Wire Line
+	4200 3750 2400 3750
+Wire Wire Line
+	4450 3150 4150 3150
+Wire Wire Line
+	4150 3150 4150 2950
+Wire Wire Line
+	4450 1800 4200 1800
+Wire Wire Line
+	4200 1800 4200 2000
+Wire Wire Line
+	4450 1600 2400 1600
+Wire Wire Line
+	2400 1200 4150 1200
+Wire Wire Line
+	4200 2000 2400 2000
+Wire Wire Line
+	4450 1400 4150 1400
+Wire Wire Line
+	4150 1400 4150 1200
+Wire Wire Line
+	2700 1200 2700 2950
+Connection ~ 2700 1200
+Text GLabel 2400 3750 0    60   Output
+analog_sensor_MAP_ambient
 $Comp
 L MPX4100A U?
 U 1 1 488E1E31
@@ -24,20 +58,6 @@ F 1 "MPX4100A" H 5050 2700 70  0000 C C
 	1    5100 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 3550 4200 3550
-Wire Wire Line
-	4200 3550 4200 3750
-Wire Wire Line
-	4450 3350 2400 3350
-Wire Wire Line
-	4150 2950 2400 2950
-Wire Wire Line
-	4200 3750 2400 3750
-Wire Wire Line
-	4450 3150 4150 3150
-Wire Wire Line
-	4150 3150 4150 2950
 $Comp
 L C C?
 U 1 1 488E1E30
@@ -65,10 +85,6 @@ F 1 "C" H 3350 3050 50  0000 L C
 	1    3300 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 2950 0    60   Input
-5v reg
-Text GLabel 2400 3750 0    60   Output
-analog_sensor_MAP_ambient
 Text GLabel 2400 1600 0    60   BiDi
 analog_sensor_gnd
 $Comp
@@ -80,20 +96,6 @@ F 1 "MPX4100A" H 5050 950 70  0000 C C
 	1    5100 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 1800 4200 1800
-Wire Wire Line
-	4200 1800 4200 2000
-Wire Wire Line
-	4450 1600 2400 1600
-Wire Wire Line
-	4150 1200 2400 1200
-Wire Wire Line
-	4200 2000 2400 2000
-Wire Wire Line
-	4450 1400 4150 1400
-Wire Wire Line
-	4150 1400 4150 1200
 $Comp
 L C C?
 U 1 1 488D2158

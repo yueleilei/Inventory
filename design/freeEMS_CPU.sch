@@ -3,10 +3,10 @@ LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,x
 EELAYER 23  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 29 30
+Sheet 30 31
 Title "freeEMS 1.0"
-Date "27 jul 2008"
-Rev "A.01"
+Date "1 aug 2008"
+Rev "A.03"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -114,19 +114,19 @@ PA6
 Text GLabel 2250 1000 2    60   BiDi
 PA7
 $Comp
-L CONN_50_PIN_IO P1
+L CONN_50_PIN_IO P?
 U 1 1 486F59D1
 P 8550 3800
-F 0 "P1" H 8550 5100 60  0000 C C
+F 0 "P?" H 8550 5100 60  0000 C C
 F 1 "CONN_50_PIN_IO" V 8550 3800 50  0000 C C
 	1    8550 3800
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_50_PIN_IO P2
+L CONN_50_PIN_IO P?
 U 1 1 486F5641
 P 1850 2200
-F 0 "P2" H 1850 3500 60  0000 C C
+F 0 "P?" H 1850 3500 60  0000 C C
 F 1 "CONN_50_PIN_IO" V 1850 2200 50  0000 C C
 	1    1850 2200
 	1    0    0    -1  

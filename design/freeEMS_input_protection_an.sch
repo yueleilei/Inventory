@@ -3,10 +3,10 @@ LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,x
 EELAYER 23  0
 EELAYER END
 $Descr A 11000 8500
-Sheet 7 30
+Sheet 8 31
 Title "freeEMS 1.0"
-Date "27 jul 2008"
-Rev "A.01"
+Date "1 aug 2008"
+Rev "A.03"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -36,10 +36,10 @@ F 1 "Xk" V 7200 4100 50  0000 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR?
 U 1 1 486F8C14
 P 5250 4550
-F 0 "#PWR011" H 5250 4550 30  0001 C C
+F 0 "#PWR?" H 5250 4550 30  0001 C C
 F 1 "GND" H 5250 4480 30  0001 C C
 	1    5250 4550
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  28/7/2008-21:07:17
+EESchema-DOCLIB  Version 2.0  1/8/2008-01:17:36
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -29,6 +29,11 @@ D HALL EFFECT
 K HALL EFFECT
 $ENDCMP
 #
+$CMP LM1815
+D LM1815
+K LM1815
+$ENDCMP
+#
 $CMP MOS_N
 F transistors/mos/*.*
 $ENDCMP
@@ -36,6 +41,11 @@ $ENDCMP
 $CMP MPX4100A
 D MAP SENSOR
 K MAP MPX4100A
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
 $ENDCMP
 #
 $CMP R
