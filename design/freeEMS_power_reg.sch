@@ -6,7 +6,7 @@ $Descr A 11000 8500
 Sheet 31 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.03"
+Rev "A.04"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -238,6 +238,6 @@ P 4300 3350
 F 0 "U?" H 4450 3154 60  0000 C C
 F 1 "5V LDO" H 4300 3550 60  0000 C C
 	1    4300 3350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

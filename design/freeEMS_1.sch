@@ -6,13 +6,16 @@ $Descr B 17000 11000
 Sheet 1 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.03"
+Rev "A.04"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 16250 8050
+Wire Wire Line
+	15400 8050 16250 8050
 Connection ~ 16300 7950
 Wire Wire Line
 	15400 7950 16300 7950
@@ -23,7 +26,7 @@ Wire Bus Line
 Wire Wire Line
 	8500 5600 9000 5600
 Wire Bus Line
-	8400 8200 8400 4600
+	8400 4600 8400 8300
 Wire Wire Line
 	12000 3700 12450 3700
 Wire Wire Line
@@ -48,7 +51,7 @@ Connection ~ 16250 5700
 Wire Wire Line
 	16250 5700 15400 5700
 Wire Wire Line
-	8600 8200 8600 4750
+	8600 8300 8600 4750
 Connection ~ 16300 3700
 Wire Wire Line
 	16300 3700 15400 3700
@@ -62,7 +65,7 @@ Connection ~ 16300 7500
 Wire Wire Line
 	16300 7500 15400 7500
 Wire Wire Line
-	16250 9550 16250 700 
+	16250 700  16250 8600
 Wire Wire Line
 	16250 700  3800 700 
 Wire Wire Line
@@ -73,11 +76,11 @@ Connection ~ 3650 1800
 Wire Wire Line
 	3650 1150 3650 1800
 Wire Wire Line
-	3400 1950 3400 1100
+	3400 1100 3400 1950
 Wire Wire Line
 	11750 6400 11650 6400
 Wire Wire Line
-	11750 8600 11750 5050
+	11750 8700 11750 5050
 Wire Wire Line
 	12200 6200 12200 6500
 Wire Wire Line
@@ -108,12 +111,12 @@ Connection ~ 8600 5500
 Wire Wire Line
 	8600 5500 9000 5500
 Wire Wire Line
-	8500 8300 9000 8300
+	8500 8400 9000 8400
 Wire Wire Line
-	12400 8300 11650 8300
+	12400 8400 11650 8400
 Connection ~ 8600 7750
 Wire Wire Line
-	8600 8200 9000 8200
+	8600 8300 9000 8300
 Connection ~ 11750 7750
 Wire Wire Line
 	11750 7750 11650 7750
@@ -121,10 +124,10 @@ Connection ~ 8600 5050
 Wire Wire Line
 	9000 5050 8600 5050
 Wire Wire Line
-	4050 1900 3200 1900
-Connection ~ 15600 8300
+	3200 1900 4050 1900
+Connection ~ 15600 8400
 Wire Wire Line
-	15600 8300 15400 8300
+	15600 8400 15400 8400
 Connection ~ 15600 7400
 Wire Wire Line
 	15600 7400 15400 7400
@@ -176,7 +179,7 @@ Connection ~ 15550 2600
 Wire Wire Line
 	15550 1150 15550 4500
 Wire Wire Line
-	15600 5150 15600 8500
+	15600 5150 15600 8950
 Wire Wire Line
 	15600 6950 15400 6950
 Connection ~ 15600 6950
@@ -184,14 +187,14 @@ Wire Wire Line
 	15600 7850 15400 7850
 Connection ~ 15600 7850
 Wire Wire Line
-	3200 1800 4050 1800
+	4050 1800 3200 1800
 Wire Wire Line
 	8600 7750 9000 7750
 Wire Wire Line
 	11750 5050 11650 5050
 Wire Wire Line
-	11750 8200 11650 8200
-Connection ~ 11750 8200
+	11750 8300 11650 8300
+Connection ~ 11750 8300
 Wire Wire Line
 	11650 7850 12400 7850
 Wire Wire Line
@@ -231,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 650  16300 650 
 Wire Wire Line
-	16300 650  16300 9550
+	16300 650  16300 8500
 Connection ~ 16250 6200
 Wire Wire Line
 	16300 1250 15400 1250
@@ -282,8 +285,9 @@ Wire Wire Line
 Wire Wire Line
 	12300 5700 12400 5700
 Wire Wire Line
-	15400 8400 16300 8400
-Connection ~ 16300 8400
+	16300 8500 15400 8500
+Wire Wire Line
+	16250 8600 15400 8600
 Entry Bus Bus
 	11650 4350 11750 4450
 Entry Wire Line
@@ -305,7 +309,7 @@ Entry Wire Line
 Entry Wire Line
 	8400 7750 8500 7850
 Entry Wire Line
-	8400 8200 8500 8300
+	8400 8300 8500 8400
 Entry Bus Bus
 	8300 4500 8400 4600
 Entry Wire Line
@@ -362,7 +366,7 @@ Text Notes 12150 3550 0    60   ~
 pg21
 Text Notes 8750 5000 0    60   ~
 pg7
-Text Notes 11800 8250 0    60   ~
+Text Notes 11800 8350 0    60   ~
 pg23
 Text Notes 11800 7800 0    60   ~
 pg23
@@ -372,7 +376,7 @@ Text Notes 11800 6900 0    60   ~
 pg25
 Text Notes 11800 5550 0    60   ~
 pg28
-Text Notes 8750 8150 0    60   ~
+Text Notes 8750 8250 0    60   ~
 pg9
 Text Notes 8750 7700 0    60   ~
 pg9
@@ -451,21 +455,21 @@ F4 "analog_sensor_in" I R 11650 5600 60
 F5 "analog_sensor_out" O L 9000 5600 60 
 $EndSheet
 $Sheet
-S 9000 8150 2650 250 
+S 9000 8250 2650 250 
 F0 "digi_protect_2" 60
 F1 "freeEMS_input_protection_dig.sch" 60
-F2 "digi_sensor_gnd" B R 11650 8200 60 
-F3 "digi_sensor_vcc" O L 9000 8200 60 
-F4 "digi_sensor_in" I L 9000 8300 60 
-F5 "digi_sensor_out" O R 11650 8300 60 
+F2 "digi_sensor_gnd" B R 11650 8300 60 
+F3 "digi_sensor_vcc" O L 9000 8300 60 
+F4 "digi_sensor_in" I L 9000 8400 60 
+F5 "digi_sensor_out" O R 11650 8400 60 
 $EndSheet
 $Comp
 L GND #PWR?
 U 1 1 486F8119
-P 11750 8600
-F 0 "#PWR?" H 11750 8600 30  0001 C C
-F 1 "GND" H 11750 8530 30  0001 C C
-	1    11750 8600
+P 11750 8700
+F 0 "#PWR?" H 11750 8700 30  0001 C C
+F 1 "GND" H 11750 8630 30  0001 C C
+	1    11750 8700
 	1    0    0    -1  
 $EndComp
 $Sheet
@@ -489,10 +493,10 @@ $EndSheet
 $Comp
 L GND #PWR?
 U 1 1 486F7889
-P 15600 8500
-F 0 "#PWR?" H 15600 8500 30  0001 C C
-F 1 "GND" H 15600 8430 30  0001 C C
-	1    15600 8500
+P 15600 8950
+F 0 "#PWR?" H 15600 8950 30  0001 C C
+F 1 "GND" H 15600 8880 30  0001 C C
+	1    15600 8950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -628,20 +632,22 @@ F4 "12v_power" I R 15400 1250 60
 F5 "current_sense" O L 12450 1250 60 
 $EndSheet
 $Sheet
-S 12400 8250 3000 200 
+S 12400 8350 3000 300 
 F0 "RPM_input_2" 60
 F1 "freeEMS_RPM_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 8300 60 
-F3 "analog_sensor_RPM" O L 12400 8300 60 
-F4 "12v_batt" O R 15400 8400 60 
+F2 "analog_sensor_gnd" B R 15400 8400 60 
+F3 "analog_sensor_RPM" O L 12400 8400 60 
+F4 "12v_batt" O R 15400 8500 60 
+F5 "5v_reg" O R 15400 8600 60 
 $EndSheet
 $Sheet
-S 12400 7800 3000 200 
+S 12400 7800 3000 300 
 F0 "RPM_input_1" 60
 F1 "freeEMS_RPM_input.sch" 60
 F2 "analog_sensor_gnd" B R 15400 7850 60 
 F3 "analog_sensor_RPM" O L 12400 7850 60 
 F4 "12v_batt" O R 15400 7950 60 
+F5 "5v_reg" O R 15400 8050 60 
 $EndSheet
 $Sheet
 S 12400 7350 3000 200 

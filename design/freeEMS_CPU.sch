@@ -6,7 +6,7 @@ $Descr A 11000 8500
 Sheet 30 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.03"
+Rev "A.04"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""

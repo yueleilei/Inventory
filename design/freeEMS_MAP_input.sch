@@ -6,13 +6,23 @@ $Descr A 11000 8500
 Sheet 27 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.03"
+Rev "A.04"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 5750 3550
+NoConn ~ 5750 3350
+NoConn ~ 5750 3150
+NoConn ~ 5750 2950
+NoConn ~ 4450 2950
+NoConn ~ 5750 1800
+NoConn ~ 5750 1600
+NoConn ~ 5750 1400
+NoConn ~ 5750 1200
+NoConn ~ 4450 1200
 Connection ~ 2850 1600
 Wire Wire Line
 	2850 1600 2850 3350
