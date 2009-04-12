@@ -1,5 +1,7 @@
 #!/bin/sh
  ps2pdf freeEMS_1.ps
+ ps2pdf digi_protect.ps
+ ps2pdf freeEMS_O2_input.ps
  ps2pdf freeEMS_BAT_condition.ps
  ps2pdf freeEMS_CPU.ps
  ps2pdf freeEMS_ignition.ps

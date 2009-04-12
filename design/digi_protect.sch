@@ -61,7 +61,7 @@ $EndComp
 Text GLabel 2800 1300 0    60   BiDi
 digi_sensor_gnd
 Text GLabel 1950 900  0    60   BiDi
-digi_sensor_CPU
+digi_CPU
 Text GLabel 3850 900  2    60   BiDi
-digi_sensor_device
+digi_device
 $EndSCHEMATC
