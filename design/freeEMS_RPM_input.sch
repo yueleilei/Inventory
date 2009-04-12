@@ -6,78 +6,152 @@ $Descr A4 11700 8267
 Sheet 24 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.05"
+Rev "A.06"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 2600 5050 0    60   ~
+SWITCHING THESE RESISTORS AROUND WILL CHANGE THE POLARITY OF OUTPUT SIGNAL FOR THE VR CIRCUIT
+Wire Notes Line
+	2550 5000 2200 5000
+Wire Notes Line
+	2200 5000 2200 2700
+Wire Notes Line
+	2200 2700 2600 2700
+Connection ~ 2800 2800
 Wire Wire Line
-	4500 1750 4700 1750
+	2800 2600 2800 2900
 Wire Wire Line
-	4500 1750 4500 1950
+	2800 2900 4000 2900
 Wire Wire Line
-	4700 1650 3050 1650
+	6850 3200 6850 3400
+Connection ~ 6500 3400
 Wire Wire Line
-	3350 3200 3350 2200
+	6850 3400 5850 3400
+Connection ~ 3950 3000
 Wire Wire Line
-	6100 2600 5750 2600
-Connection ~ 3350 3000
+	3950 1650 3950 3000
 Wire Wire Line
-	3350 2600 4000 2600
-Connection ~ 3800 1650
+	4700 1550 4500 1550
 Wire Wire Line
-	3800 1450 3800 1650
-Connection ~ 3300 1650
+	4500 1550 4500 1350
 Wire Wire Line
-	3300 1750 3300 1650
+	3050 2200 3350 2200
+Connection ~ 3350 2600
+Connection ~ 3950 1650
+Connection ~ 3800 1950
+Wire Wire Line
+	3800 1950 3800 1750
+Connection ~ 3300 1350
+Wire Wire Line
+	3300 1450 3300 1350
+Wire Wire Line
+	3850 3200 4000 3200
+Connection ~ 5850 3400
+Connection ~ 6100 2100
+Wire Wire Line
+	6100 2200 6100 2100
+Wire Wire Line
+	4500 1350 3050 1350
+Wire Wire Line
+	3050 1950 4500 1950
+Wire Wire Line
+	5750 2100 6550 2100
+Wire Wire Line
+	6550 2100 6550 2150
+Wire Wire Line
+	5750 3100 5850 3100
+Wire Wire Line
+	5850 3100 5850 3500
+Wire Wire Line
+	3450 2800 3450 2850
+Wire Wire Line
+	4000 3000 3850 3000
 Wire Wire Line
 	4000 3600 4000 3700
 Wire Wire Line
-	3850 3000 4000 3000
+	3300 1750 3300 1650
+Connection ~ 3300 1650
 Wire Wire Line
-	3450 2850 3450 2800
+	3800 1650 3800 1450
+Connection ~ 3800 1650
+Connection ~ 3350 3000
 Wire Wire Line
-	3450 2800 3500 2800
+	6100 2600 5750 2600
 Wire Wire Line
-	5850 3500 5850 3100
+	3350 2200 3350 3200
 Wire Wire Line
-	5850 3100 5750 3100
+	3050 1650 4700 1650
 Wire Wire Line
-	6550 2150 6550 2100
+	4500 1950 4500 1750
 Wire Wire Line
-	6550 2100 5750 2100
+	4500 1750 4700 1750
 Wire Wire Line
-	4500 1950 3050 1950
+	3500 2200 3500 1950
+Connection ~ 3500 1950
 Wire Wire Line
-	3050 1350 4500 1350
+	6850 3000 6250 3000
+Connection ~ 6500 3000
 Wire Wire Line
-	6100 2200 6100 2100
-Connection ~ 6100 2100
+	3300 2800 3500 2800
+Connection ~ 3450 2800
 Wire Wire Line
-	6250 3200 5850 3200
-Connection ~ 5850 3200
-Wire Wire Line
-	3850 3200 4000 3200
-Wire Wire Line
-	3300 1450 3300 1350
-Connection ~ 3300 1350
-Wire Wire Line
-	3800 1750 3800 1950
-Connection ~ 3800 1950
-Wire Wire Line
-	4000 2700 3950 2700
-Wire Wire Line
-	3950 2700 3950 1650
-Connection ~ 3950 1650
-Connection ~ 3350 2600
-Wire Wire Line
-	3350 2200 3050 2200
-Wire Wire Line
-	4500 1350 4500 1550
-Wire Wire Line
-	4500 1550 4700 1550
+	3300 2600 4000 2600
+Wire Notes Line
+	2750 2600 2600 2600
+Wire Notes Line
+	2600 2600 2600 2800
+Wire Notes Line
+	2600 2800 2750 2800
+$Comp
+L R R?
+U 1 1 48951DD9
+P 3050 2600
+F 0 "R?" V 3130 2600 50  0000 C C
+F 1 "10k" V 3050 2600 50  0000 C C
+	1    3050 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 48951A42
+P 3050 2800
+F 0 "R?" V 3130 2800 50  0000 C C
+F 1 "0R" V 3050 2800 50  0000 C C
+	1    3050 2800
+	0    1    1    0   
+$EndComp
+NoConn ~ 4000 2700
+$Comp
+L CONN_2 P?
+U 1 1 4892E1E7
+P 7200 3100
+F 0 "P?" V 7150 3100 40  0000 C C
+F 1 "VR con" V 7250 3100 40  0000 C C
+	1    7200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 489519B8
+P 6500 3200
+F 0 "C?" H 6550 3300 50  0000 L C
+F 1 "330 pF" H 6550 3100 50  0000 L C
+	1    6500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 48951901
+P 3500 2400
+F 0 "C?" H 3550 2500 50  0000 L C
+F 1 ".1 uF" H 3550 2300 50  0000 L C
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
 $Comp
 L CONN_3 K?
 U 1 1 4893AA78
@@ -87,7 +161,6 @@ F 1 "HALL" V 5100 1650 40  0000 C C
 	1    5050 1650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4000 2900
 $Comp
 L R R?
 U 1 1 4892E246
@@ -105,15 +178,6 @@ F 0 "R?" V 3630 1450 50  0000 C C
 F 1 "1k" V 3550 1450 50  0000 C C
 	1    3550 1450
 	0    1    1    0   
-$EndComp
-$Comp
-L CONN_2 P?
-U 1 1 4892E1E7
-P 6600 3100
-F 0 "P?" V 6550 3100 40  0000 C C
-F 1 "VR con" V 6650 3100 40  0000 C C
-	1    6600 3100
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
@@ -233,7 +297,7 @@ $EndComp
 Text GLabel 3050 1350 0    60   Input
 12v_batt
 Text GLabel 3050 1950 0    60   BiDi
-analog_sensor_gnd
+digi_sensor_gnd
 Text GLabel 3050 1650 0    60   Output
-analog_sensor_RPM
+digi_sensor_RPM
 $EndSCHEMATC

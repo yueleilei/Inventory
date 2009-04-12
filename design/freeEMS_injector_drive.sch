@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 Sheet 22 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.05"
+Rev "A.06"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -138,7 +138,7 @@ L R R?
 U 1 1 488C9E4A
 P 3050 1750
 F 0 "R?" V 3130 1750 50  0000 C C
-F 1 "1k" V 3050 1750 50  0000 C C
+F 1 "100k" V 3050 1750 50  0000 C C
 	1    3050 1750
 	1    0    0    -1  
 $EndComp

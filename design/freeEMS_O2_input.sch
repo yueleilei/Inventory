@@ -3,7 +3,7 @@ LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,x
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 25 31
+Sheet 26 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
 Rev "A.06"
@@ -14,33 +14,20 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2250 2800 2500 2800
+	2600 2500 3050 2500
 Wire Wire Line
-	2250 1800 2500 1800
-Wire Wire Line
-	2250 2300 2500 2300
-Text GLabel 2250 1800 0    60   Output
-12V_bat
+	2600 2300 3050 2300
 $Comp
-L R R?
-U 1 1 4890FC9B
-P 2500 2550
-F 0 "R?" V 2580 2550 50  0000 C C
-F 1 "10k" V 2500 2550 50  0000 C C
-	1    2500 2550
+L CONN_2 P?
+U 1 1 4895261A
+P 3400 2400
+F 0 "P?" V 3350 2400 40  0000 C C
+F 1 "O2 CON" V 3450 2400 40  0000 C C
+	1    3400 2400
 	1    0    0    -1  
 $EndComp
-$Comp
-L R R?
-U 1 1 4890FC93
-P 2500 2050
-F 0 "R?" V 2580 2050 50  0000 C C
-F 1 "39k" V 2500 2050 50  0000 C C
-	1    2500 2050
-	1    0    0    -1  
-$EndComp
-Text GLabel 2250 2800 0    60   BiDi
-analog_sensor_gnd
-Text GLabel 2250 2300 0    60   Output
-analog_sensor_BAT
+Text GLabel 2600 2500 0    60   Input
+analog_sensor_O2_GND
+Text GLabel 2600 2300 0    60   Input
+analog_sensor_O2
 $EndSCHEMATC

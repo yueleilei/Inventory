@@ -11,3 +11,5 @@
  ps2pdf freeEMS_RPM_input.ps
  ps2pdf freeEMS_thermistor_resistor_input.ps
  ps2pdf freeEMS_TPS_input.ps
+ ps2pdf freeEMS_general_drive.ps
+ ps2pdf freeEMS_O2_input.ps

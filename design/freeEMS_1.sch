@@ -6,23 +6,37 @@ $Descr B 17000 11000
 Sheet 1 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.05"
+Rev "A.06"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 11150 900  0    60   ~
-INJECTOR / INDUCTIVE DRIVE CIRCUITS
+Entry Wire Line
+	7800 9000 7900 9100
+Entry Wire Line
+	7800 8550 7900 8650
+Wire Wire Line
+	7900 8650 12400 8650
+Wire Wire Line
+	7900 9550 12400 9550
+Wire Bus Line
+	7800 9450 7800 3900
+Connection ~ 8600 7600
+Wire Wire Line
+	8600 4050 8600 8150
+Connection ~ 16400 8300
+Wire Wire Line
+	15350 8750 16400 8750
 Wire Notes Line
-	11100 4650 11100 900 
+	11100 3950 11100 900 
 Wire Notes Line
-	15850 900  11100 900 
+	11100 900  15850 900 
 Wire Notes Line
-	15850 900  15850 9300
+	15850 900  15850 9900
 Wire Notes Line
-	15850 4650 7750 4650
+	15850 3950 7750 3950
 Wire Wire Line
 	5400 1550 6350 1550
 Wire Wire Line
@@ -30,7 +44,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 9100 7350 9100
 Wire Bus Line
-	6450 1450 6450 4350
+	6450 1450 6450 3650
 Wire Wire Line
 	4050 2450 3350 2450
 Wire Wire Line
@@ -42,9 +56,9 @@ Wire Wire Line
 Wire Wire Line
 	5400 1350 6350 1350
 Wire Wire Line
-	12400 6150 12200 6150
+	12400 5450 12200 5450
 Wire Wire Line
-	12200 6150 12200 6500
+	12200 5450 12200 5800
 Wire Wire Line
 	3350 3250 4050 3250
 Wire Wire Line
@@ -53,8 +67,6 @@ Wire Wire Line
 	3350 2850 4050 2850
 Wire Wire Line
 	6250 5600 5400 5600
-Wire Bus Line
-	6350 5600 6350 3950
 Wire Wire Line
 	2650 5800 4050 5800
 Wire Wire Line
@@ -83,29 +95,25 @@ Wire Wire Line
 Connection ~ 7650 8650
 Wire Wire Line
 	7650 8650 7350 8650
-Connection ~ 16400 8500
+Connection ~ 16400 7800
 Wire Wire Line
 	7650 7750 7350 7750
 Wire Wire Line
-	15400 8600 16250 8600
+	15400 7900 16250 7900
 Wire Wire Line
-	15400 8500 16400 8500
+	16400 7800 15400 7800
 Wire Wire Line
-	11900 5700 12400 5700
+	11900 5000 12400 5000
 Wire Wire Line
-	11900 5250 12400 5250
+	11900 4550 12400 4550
 Wire Wire Line
-	7900 5150 9000 5150
-Wire Wire Line
-	11900 4400 12450 4400
+	7900 4450 9000 4450
 Wire Wire Line
 	11900 3200 12450 3200
 Wire Wire Line
 	11900 2250 12450 2250
 Wire Wire Line
 	11900 1250 12450 1250
-Wire Wire Line
-	11750 4300 12450 4300
 Wire Wire Line
 	11750 1150 12450 1150
 Wire Wire Line
@@ -117,16 +125,13 @@ Wire Wire Line
 Wire Wire Line
 	11750 3600 12450 3600
 Wire Bus Line
-	6450 4350 11650 4350
+	6450 3650 11650 3650
 Wire Wire Line
-	15600 6050 15400 6050
-Connection ~ 16250 5250
-Connection ~ 16250 4750
+	15600 5350 15400 5350
+Connection ~ 16250 4550
+Connection ~ 16250 4050
 Wire Wire Line
-	16250 4750 8600 4750
-Connection ~ 16400 4400
-Wire Wire Line
-	16400 4400 15400 4400
+	8600 4050 16250 4050
 Connection ~ 16400 3200
 Wire Wire Line
 	16400 3200 15400 3200
@@ -135,7 +140,7 @@ Wire Wire Line
 	16400 2250 15400 2250
 Connection ~ 16400 1250
 Wire Wire Line
-	16400 1250 15400 1250
+	15400 1250 16400 1250
 Wire Wire Line
 	3750 650  16400 650 
 Wire Wire Line
@@ -147,52 +152,52 @@ Wire Wire Line
 Wire Wire Line
 	3600 1250 3200 1250
 Wire Wire Line
-	11750 5950 11650 5950
+	11750 5250 11650 5250
 Wire Wire Line
-	12200 6500 11650 6500
-Connection ~ 15600 6050
+	12200 5800 11650 5800
+Connection ~ 15600 5350
 Wire Wire Line
-	9000 6950 7900 6950
+	9000 6250 7900 6250
 Wire Wire Line
-	7900 6500 9000 6500
+	7900 5800 9000 5800
 Wire Wire Line
-	9000 7400 7900 7400
+	9000 6700 7900 6700
 Wire Wire Line
-	11650 6950 12400 6950
+	11650 6250 12400 6250
 Wire Wire Line
-	11650 5150 12400 5150
-Connection ~ 11750 5500
+	11650 4450 12400 4450
+Connection ~ 11750 4800
 Wire Wire Line
-	11650 5500 11750 5500
-Connection ~ 11750 6850
+	11650 4800 11750 4800
+Connection ~ 11750 6150
 Wire Wire Line
-	11750 6850 11650 6850
-Connection ~ 8600 6400
+	11750 6150 11650 6150
+Connection ~ 8600 5700
 Wire Wire Line
-	8600 6400 9000 6400
+	8600 5700 9000 5700
 Wire Wire Line
-	7900 7850 9000 7850
+	7900 7150 9000 7150
 Wire Wire Line
-	11650 7850 12400 7850
-Connection ~ 11750 8300
+	11650 7150 12400 7150
+Connection ~ 11750 7600
 Wire Wire Line
-	11750 8300 11650 8300
+	11750 7600 11650 7600
 Wire Wire Line
-	11650 5050 11750 5050
+	11650 4350 11750 4350
 Wire Wire Line
-	8600 7750 9000 7750
+	8600 7050 9000 7050
 Wire Wire Line
 	3200 1350 4050 1350
-Connection ~ 15600 7850
+Connection ~ 15600 7150
 Wire Wire Line
-	15600 7850 15400 7850
-Connection ~ 15600 6950
+	15600 7150 15400 7150
+Connection ~ 15600 6250
 Wire Wire Line
-	15600 6950 15400 6950
+	15600 6250 15400 6250
 Wire Wire Line
-	15600 8950 15600 5150
+	15600 9700 15600 4450
 Wire Wire Line
-	15550 4500 15550 1150
+	15550 3850 15550 1150
 Connection ~ 15550 2600
 Wire Wire Line
 	15550 2600 15400 2600
@@ -210,13 +215,13 @@ Wire Wire Line
 Wire Wire Line
 	7500 7650 7350 7650
 Wire Wire Line
-	15600 5150 15400 5150
+	15600 4450 15400 4450
 Connection ~ 3400 1450
 Wire Wire Line
 	15550 2150 15400 2150
 Wire Wire Line
-	15400 5600 15600 5600
-Connection ~ 15600 5600
+	15400 4900 15600 4900
+Connection ~ 15600 4900
 Wire Wire Line
 	7500 9900 7350 9900
 Connection ~ 7500 9900
@@ -233,70 +238,67 @@ Wire Wire Line
 	15550 3100 15400 3100
 Connection ~ 15550 3100
 Wire Wire Line
-	15550 4300 15400 4300
-Connection ~ 15550 4300
-Wire Wire Line
 	15550 3600 15400 3600
 Connection ~ 15550 3600
 Wire Wire Line
-	15600 7400 15400 7400
-Connection ~ 15600 7400
+	15600 6700 15400 6700
+Connection ~ 15600 6700
 Wire Wire Line
-	15600 8400 15400 8400
-Connection ~ 15600 8400
+	15600 7700 15400 7700
+Connection ~ 15600 7700
 Wire Wire Line
 	4050 1450 3200 1450
 Wire Wire Line
-	9000 5050 8600 5050
-Connection ~ 8600 5050
+	9000 4350 8600 4350
+Connection ~ 8600 4350
 Wire Wire Line
-	11750 7750 11650 7750
-Connection ~ 11750 7750
+	11750 7050 11650 7050
+Connection ~ 11750 7050
 Wire Wire Line
-	9000 8300 8600 8300
-Connection ~ 8600 7750
+	8600 7600 9000 7600
+Connection ~ 8600 7050
 Wire Wire Line
-	12400 8400 11650 8400
+	12400 7700 11650 7700
 Wire Wire Line
-	7900 8400 9000 8400
+	7900 7700 9000 7700
 Wire Wire Line
-	8600 5500 9000 5500
-Connection ~ 8600 5500
+	8600 4800 9000 4800
+Connection ~ 8600 4800
 Wire Wire Line
-	8600 6850 9000 6850
-Connection ~ 8600 6850
+	8600 6150 9000 6150
+Connection ~ 8600 6150
 Wire Wire Line
-	11750 7300 11650 7300
-Connection ~ 11750 7300
-Connection ~ 11750 6400
+	11750 6600 11650 6600
+Connection ~ 11750 6600
+Connection ~ 11750 5700
 Wire Wire Line
-	12400 5600 11650 5600
+	12400 4900 11650 4900
 Wire Wire Line
-	12400 7400 11650 7400
+	12400 6700 11650 6700
 Wire Wire Line
-	8600 7300 9000 7300
-Connection ~ 8600 7300
+	8600 6600 9000 6600
+Connection ~ 8600 6600
 Wire Wire Line
-	7900 6050 9000 6050
-Connection ~ 8600 5950
+	7900 5350 9000 5350
+Connection ~ 8600 5250
 Wire Wire Line
-	8600 5950 9000 5950
-Connection ~ 11750 5950
+	8600 5250 9000 5250
+Connection ~ 11750 5250
 Wire Wire Line
-	11650 6050 12400 6050
+	11650 5350 12400 5350
 Wire Wire Line
-	11750 5050 11750 8700
+	11750 4350 11750 8350
 Wire Wire Line
-	11750 6400 11650 6400
+	11750 5700 11650 5700
 Wire Wire Line
 	3400 1500 3400 1100
 Wire Wire Line
 	16250 700  3800 700 
 Wire Wire Line
-	16250 700  16250 8600
+	16250 700  16250 7900
 Wire Wire Line
-	16400 7500 15400 7500
-Connection ~ 16400 7500
+	16400 6800 15400 6800
+Connection ~ 16400 6800
 Wire Wire Line
 	16400 1750 15400 1750
 Connection ~ 16400 1750
@@ -307,40 +309,36 @@ Wire Wire Line
 	16400 3700 15400 3700
 Connection ~ 16400 3700
 Wire Wire Line
-	8600 8300 8600 4750
+	16250 5000 15400 5000
+Connection ~ 16250 5000
 Wire Wire Line
-	16250 5700 15400 5700
-Connection ~ 16250 5700
-Wire Wire Line
-	16250 5250 15400 5250
+	16250 4550 15400 4550
 Wire Wire Line
 	11750 1650 12450 1650
 Wire Bus Line
-	11650 4350 11650 1050
+	11650 3650 11650 1050
 Wire Bus Line
-	11800 1350 11800 4500
+	11800 1350 11800 3800
 Wire Bus Line
-	11800 4500 6350 4500
+	11800 3800 6350 3800
 Wire Wire Line
 	11900 1750 12450 1750
 Wire Wire Line
 	11900 2700 12450 2700
 Wire Wire Line
 	11900 3700 12450 3700
-Wire Bus Line
-	7800 8300 7800 4600
 Wire Wire Line
-	7900 5600 9000 5600
+	7900 4900 9000 4900
 Wire Bus Line
-	11800 5800 11800 4900
+	11800 5100 11800 4200
 Wire Bus Line
-	11800 4900 11350 4450
+	11800 4200 11350 3750
 Wire Wire Line
-	16400 7950 15400 7950
-Connection ~ 16400 7950
+	16400 7250 15400 7250
+Connection ~ 16400 7250
 Wire Wire Line
-	15400 8050 16250 8050
-Connection ~ 16250 8050
+	15400 7350 16250 7350
+Connection ~ 16250 7350
 Wire Wire Line
 	7650 8200 7350 8200
 Connection ~ 7650 8200
@@ -379,8 +377,8 @@ Wire Wire Line
 Wire Wire Line
 	3350 3350 4050 3350
 Wire Wire Line
-	16250 6150 15400 6150
-Connection ~ 16250 6150
+	16250 5450 15400 5450
+Connection ~ 16250 5450
 Wire Wire Line
 	5400 2750 6350 2750
 Wire Wire Line
@@ -390,14 +388,14 @@ Wire Wire Line
 Wire Bus Line
 	3250 4300 3250 2550
 Wire Wire Line
-	16400 650  16400 9800
+	16400 650  16400 9950
 Wire Wire Line
-	16400 9800 7650 9800
-Connection ~ 7650 9800
+	16400 9950 7650 9950
+Connection ~ 7650 9950
 Wire Notes Line
-	15850 9300 7750 9300
+	15850 9900 7750 9900
 Wire Notes Line
-	7750 9300 7750 4650
+	7750 9900 7750 3950
 Wire Notes Line
 	7750 7400 2350 7400
 Wire Notes Line
@@ -406,9 +404,80 @@ Wire Notes Line
 	7750 10200 2350 10200
 Wire Notes Line
 	2350 10200 2350 7400
+Wire Wire Line
+	15600 8650 15350 8650
+Wire Bus Line
+	6350 3800 6350 5600
+Wire Wire Line
+	15350 9200 16400 9200
+Wire Wire Line
+	15600 9100 15350 9100
+Wire Wire Line
+	15350 9650 16400 9650
+Wire Wire Line
+	15600 9550 15350 9550
+Wire Wire Line
+	9000 8250 7900 8250
+Wire Wire Line
+	11650 8250 12400 8250
+Connection ~ 11750 8150
+Wire Wire Line
+	11750 8150 11650 8150
+Connection ~ 15600 8250
+Wire Wire Line
+	15600 8250 15400 8250
+Wire Wire Line
+	8600 8150 9000 8150
+Connection ~ 8600 8150
+Wire Wire Line
+	7900 9100 12400 9100
+Entry Wire Line
+	7800 9450 7900 9550
+Text Label 7900 8250 0    60   ~
+TPS_IN_1
+Entry Wire Line
+	7800 8150 7900 8250
+$Sheet
+S 9000 8100 2650 250 
+F0 "analog_protect_7" 60
+F1 "freeEMS_input_protection_an.sch" 60
+F2 "analog_sensor_gnd" B R 11650 8150 60 
+F3 "analog_sensor_vcc" O L 9000 8150 60 
+F4 "analog_sensor_in" I L 9000 8250 60 
+F5 "analog_sensor_out" O R 11650 8250 60 
+$EndSheet
+$Sheet
+S 12400 8200 3000 150 
+F0 "O2 INPUT" 60
+F1 "freeEMS_O2_input.sch" 60
+F2 "analog_sensor_gnd" B R 15400 8250 60 
+F3 "analog_sensor_TPS" O L 12400 8250 60 
+$EndSheet
+Text Label 11750 9550 0    60   ~
+ind_pd_a5
+$Sheet
+S 12400 9500 2950 250 
+F0 "misc ouput 1" 60
+F1 "freeEMS_general_drive.sch" 60
+F2 "fet_power_gnd" B R 15350 9550 60 
+F3 "fet_power_drive" I L 12400 9550 60 
+F4 "12v_power" I R 15350 9650 60 
+$EndSheet
+Text Label 11750 9100 0    60   ~
+ind_pd_a6
+$Sheet
+S 12400 9050 2950 250 
+F0 "misc ouput 1" 60
+F1 "freeEMS_general_drive.sch" 60
+F2 "fet_power_gnd" B R 15350 9100 60 
+F3 "fet_power_drive" I L 12400 9100 60 
+F4 "12v_power" I R 15350 9200 60 
+$EndSheet
+Text Notes 11150 900  0    60   ~
+INJECTOR / INDUCTIVE DRIVE CIRCUITS
 Text Notes 2350 10300 0    60   ~
 IGNITION CIRCUITS
-Text Notes 7950 9400 0    60   ~
+Text Notes 7950 9900 0    60   ~
 GENERAL CIRCUITS
 Text Label 3550 1450 0    60   ~
 gnd
@@ -548,28 +617,26 @@ Text Label 2650 8100 0    60   ~
 ind_dr_4
 Text Label 2650 7650 0    60   ~
 ind_dr_5
-Text Label 7900 8400 0    60   ~
+Text Label 7900 7700 0    60   ~
 RPM_IN_0
-Text Label 7900 7850 0    60   ~
+Text Label 7900 7150 0    60   ~
 RPM_IN_1
-Text Label 7900 7400 0    60   ~
+Text Label 7900 6700 0    60   ~
 BAT_IN_1
-Text Label 7900 6950 0    60   ~
+Text Label 7900 6250 0    60   ~
 TPS_IN_1
-Text Label 7900 6500 0    60   ~
+Text Label 7900 5800 0    60   ~
 MAP_IN_2
-Text Label 7900 6050 0    60   ~
+Text Label 7900 5350 0    60   ~
 MAP_IN_1
-Text Label 7900 5600 0    60   ~
+Text Label 7900 4900 0    60   ~
 TEMP_IN_2
-Text Label 7900 5150 0    60   ~
+Text Label 7900 4450 0    60   ~
 TEMP_IN_1
-Text Label 11900 5700 0    60   ~
+Text Label 11900 5000 0    60   ~
 th_o_a5
-Text Label 11900 5250 0    60   ~
+Text Label 11900 4550 0    60   ~
 th_o_a6
-Text Label 11900 4400 0    60   ~
-I_IN_J7
 Text Label 11900 3700 0    60   ~
 I_IN_M0
 Text Label 11900 3200 0    60   ~
@@ -582,7 +649,7 @@ Text Label 11900 1750 0    60   ~
 I_IN_M4
 Text Label 11900 1250 0    60   ~
 I_IN_M5
-Text Label 11800 4300 0    60   ~
+Text Label 11750 8650 0    60   ~
 ind_pd_a7
 Text Label 11800 3600 0    60   ~
 ind_pd_b0
@@ -609,29 +676,29 @@ Entry Wire Line
 Entry Wire Line
 	2550 7550 2650 7650
 Entry Bus Bus
-	11250 4350 11350 4450
+	11250 3650 11350 3750
 Entry Wire Line
-	11800 5350 11900 5250
+	11800 4650 11900 4550
 Entry Wire Line
-	11800 5800 11900 5700
+	11800 5100 11900 5000
 Entry Wire Line
-	7800 5050 7900 5150
+	7800 4350 7900 4450
 Entry Wire Line
-	7800 5500 7900 5600
+	7800 4800 7900 4900
 Entry Wire Line
-	7800 5950 7900 6050
+	7800 5250 7900 5350
 Entry Wire Line
-	7800 6400 7900 6500
+	7800 5700 7900 5800
 Entry Wire Line
-	7800 6850 7900 6950
+	7800 6150 7900 6250
 Entry Wire Line
-	7800 7300 7900 7400
+	7800 6600 7900 6700
 Entry Wire Line
-	7800 7750 7900 7850
+	7800 7050 7900 7150
 Entry Wire Line
-	7800 8300 7900 8400
+	7800 7600 7900 7700
 Entry Bus Bus
-	7700 4500 7800 4600
+	7700 3800 7800 3900
 Entry Wire Line
 	11800 1850 11900 1750
 Entry Wire Line
@@ -643,11 +710,7 @@ Entry Wire Line
 Entry Wire Line
 	11800 3800 11900 3700
 Entry Wire Line
-	11800 4500 11900 4400
-Entry Wire Line
 	11800 1350 11900 1250
-Entry Wire Line
-	11650 4200 11750 4300
 Entry Wire Line
 	11650 3500 11750 3600
 Entry Wire Line
@@ -670,93 +733,93 @@ F 1 "12V bat" V 3550 750 40  0000 C C
 	0    -1   -1   0   
 $EndComp
 $Sheet
-S 9000 5900 2650 250 
+S 9000 5200 2650 250 
 F0 "analog_protect_3" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 5950 60 
-F3 "analog_sensor_vcc" O L 9000 5950 60 
-F4 "analog_sensor_in" I L 9000 6050 60 
-F5 "analog_sensor_out" O R 11650 6050 60 
+F2 "analog_sensor_gnd" B R 11650 5250 60 
+F3 "analog_sensor_vcc" O L 9000 5250 60 
+F4 "analog_sensor_in" I L 9000 5350 60 
+F5 "analog_sensor_out" O R 11650 5350 60 
 $EndSheet
 $Sheet
-S 9000 7250 2650 250 
+S 9000 6550 2650 250 
 F0 "analog_protect_6" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 7300 60 
-F3 "analog_sensor_vcc" O L 9000 7300 60 
-F4 "analog_sensor_in" I L 9000 7400 60 
-F5 "analog_sensor_out" O R 11650 7400 60 
+F2 "analog_sensor_gnd" B R 11650 6600 60 
+F3 "analog_sensor_vcc" O L 9000 6600 60 
+F4 "analog_sensor_in" I L 9000 6700 60 
+F5 "analog_sensor_out" O R 11650 6700 60 
 $EndSheet
 $Sheet
-S 9000 6800 2650 250 
+S 9000 6100 2650 250 
 F0 "analog_protect_5" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 6850 60 
-F3 "analog_sensor_vcc" O L 9000 6850 60 
-F4 "analog_sensor_in" I L 9000 6950 60 
-F5 "analog_sensor_out" O R 11650 6950 60 
+F2 "analog_sensor_gnd" B R 11650 6150 60 
+F3 "analog_sensor_vcc" O L 9000 6150 60 
+F4 "analog_sensor_in" I L 9000 6250 60 
+F5 "analog_sensor_out" O R 11650 6250 60 
 $EndSheet
 $Sheet
-S 9000 6350 2650 250 
+S 9000 5650 2650 250 
 F0 "analog_protect_4" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 6400 60 
-F3 "analog_sensor_vcc" O L 9000 6400 60 
-F4 "analog_sensor_in" I L 9000 6500 60 
-F5 "analog_sensor_out" O R 11650 6500 60 
+F2 "analog_sensor_gnd" B R 11650 5700 60 
+F3 "analog_sensor_vcc" O L 9000 5700 60 
+F4 "analog_sensor_in" I L 9000 5800 60 
+F5 "analog_sensor_out" O R 11650 5800 60 
 $EndSheet
 $Sheet
-S 9000 5450 2650 250 
+S 9000 4750 2650 250 
 F0 "analog_protect_2" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 5500 60 
-F3 "analog_sensor_vcc" O L 9000 5500 60 
-F4 "analog_sensor_in" I R 11650 5600 60 
-F5 "analog_sensor_out" O L 9000 5600 60 
+F2 "analog_sensor_gnd" B R 11650 4800 60 
+F3 "analog_sensor_vcc" O L 9000 4800 60 
+F4 "analog_sensor_in" I R 11650 4900 60 
+F5 "analog_sensor_out" O L 9000 4900 60 
 $EndSheet
 $Sheet
-S 9000 8250 2650 250 
+S 9000 7550 2650 250 
 F0 "digi_protect_2" 60
 F1 "freeEMS_input_protection_dig.sch" 60
-F2 "digi_sensor_gnd" B R 11650 8300 60 
-F3 "digi_sensor_vcc" O L 9000 8300 60 
-F4 "digi_sensor_in" I L 9000 8400 60 
-F5 "digi_sensor_out" O R 11650 8400 60 
+F2 "digi_sensor_gnd" B R 11650 7600 60 
+F3 "digi_sensor_vcc" O L 9000 7600 60 
+F4 "digi_sensor_in" I L 9000 7700 60 
+F5 "digi_sensor_out" O R 11650 7700 60 
 $EndSheet
 $Comp
 L GND #PWR?
 U 1 1 486F8119
-P 11750 8700
-F 0 "#PWR?" H 11750 8700 30  0001 C C
-F 1 "GND" H 11750 8630 30  0001 C C
-	1    11750 8700
+P 11750 8350
+F 0 "#PWR?" H 11750 8350 30  0001 C C
+F 1 "GND" H 11750 8280 30  0001 C C
+	1    11750 8350
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 9000 5000 2650 250 
+S 9000 4300 2650 250 
 F0 "analog_protect_1" 60
 F1 "freeEMS_input_protection_an.sch" 60
-F2 "analog_sensor_gnd" B R 11650 5050 60 
-F3 "analog_sensor_vcc" O L 9000 5050 60 
-F4 "analog_sensor_in" I L 9000 5150 60 
-F5 "analog_sensor_out" O R 11650 5150 60 
+F2 "analog_sensor_gnd" B R 11650 4350 60 
+F3 "analog_sensor_vcc" O L 9000 4350 60 
+F4 "analog_sensor_in" I L 9000 4450 60 
+F5 "analog_sensor_out" O R 11650 4450 60 
 $EndSheet
 $Sheet
-S 9000 7700 2650 250 
+S 9000 7000 2650 250 
 F0 "digi_protect_1" 60
 F1 "freeEMS_input_protection_dig.sch" 60
-F2 "digi_sensor_gnd" B R 11650 7750 60 
-F3 "digi_sensor_vcc" O L 9000 7750 60 
-F4 "digi_sensor_in" I L 9000 7850 60 
-F5 "digi_sensor_out" O R 11650 7850 60 
+F2 "digi_sensor_gnd" B R 11650 7050 60 
+F3 "digi_sensor_vcc" O L 9000 7050 60 
+F4 "digi_sensor_in" I L 9000 7150 60 
+F5 "digi_sensor_out" O R 11650 7150 60 
 $EndSheet
 $Comp
 L GND #PWR?
 U 1 1 486F7889
-P 15600 8950
-F 0 "#PWR?" H 15600 8950 30  0001 C C
-F 1 "GND" H 15600 8880 30  0001 C C
-	1    15600 8950
+P 15600 9700
+F 0 "#PWR?" H 15600 9700 30  0001 C C
+F 1 "GND" H 15600 9630 30  0001 C C
+	1    15600 9700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -771,10 +834,10 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 486F787A
-P 15550 4500
-F 0 "#PWR?" H 15550 4500 30  0001 C C
-F 1 "GND" H 15550 4430 30  0001 C C
-	1    15550 4500
+P 15550 3850
+F 0 "#PWR?" H 15550 3850 30  0001 C C
+F 1 "GND" H 15550 3780 30  0001 C C
+	1    15550 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -787,13 +850,12 @@ F 1 "GND" H 3400 1430 30  0001 C C
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 12450 4250 2950 250 
+S 12400 8600 2950 250 
 F0 "Fuel_pump" 60
-F1 "freeEMS_injector_drive.sch" 60
-F2 "inductive_power_gnd" B R 15400 4300 60 
-F3 "inductive_power_drive" I L 12450 4300 60 
-F4 "12v_power" I R 15400 4400 60 
-F5 "current_sense" O L 12450 4400 60 
+F1 "freeEMS_general_drive.sch" 60
+F2 "fet_power_gnd" B R 15350 8650 60 
+F3 "fet_power_drive" I L 12400 8650 60 
+F4 "12v_power" I R 15350 8750 60 
 $EndSheet
 $Sheet
 S 3350 9850 4000 200 
@@ -898,64 +960,64 @@ F4 "12v_power" I R 15400 1250 60
 F5 "current_sense" O L 12450 1250 60 
 $EndSheet
 $Sheet
-S 12400 8350 3000 300 
+S 12400 7650 3000 300 
 F0 "RPM_input_0" 60
 F1 "freeEMS_RPM_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 8400 60 
-F3 "analog_sensor_RPM" O L 12400 8400 60 
-F4 "12v_batt" O R 15400 8500 60 
-F5 "5v_reg" O R 15400 8600 60 
+F2 "digi_sensor_gnd" B R 15400 7700 60 
+F3 "digi_sensor_RPM" O L 12400 7700 60 
+F4 "12v_batt" O R 15400 7800 60 
+F5 "5v_reg" O R 15400 7900 60 
 $EndSheet
 $Sheet
-S 12400 7800 3000 300 
+S 12400 7100 3000 300 
 F0 "RPM_input_1" 60
 F1 "freeEMS_RPM_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 7850 60 
-F3 "analog_sensor_RPM" O L 12400 7850 60 
-F4 "12v_batt" O R 15400 7950 60 
-F5 "5v_reg" O R 15400 8050 60 
+F2 "digi_sensor_gnd" B R 15400 7150 60 
+F3 "digi_sensor_RPM" O L 12400 7150 60 
+F4 "12v_batt" O R 15400 7250 60 
+F5 "5v_reg" O R 15400 7350 60 
 $EndSheet
 $Sheet
-S 12400 7350 3000 200 
+S 12400 6650 3000 200 
 F0 "BAT_input" 60
 F1 "freeEMS_BAT_condition.sch" 60
-F2 "analog_sensor_gnd" B R 15400 7400 60 
-F3 "analog_sensor_BAT" O L 12400 7400 60 
-F4 "12V_bat" O R 15400 7500 60 
+F2 "analog_sensor_gnd" B R 15400 6700 60 
+F3 "analog_sensor_BAT" O L 12400 6700 60 
+F4 "12V_bat" O R 15400 6800 60 
 $EndSheet
 $Sheet
-S 12400 6900 3000 200 
+S 12400 6200 3000 200 
 F0 "TPS_input" 60
 F1 "freeEMS_TPS_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 6950 60 
-F3 "analog_sensor_TPS" O L 12400 6950 60 
+F2 "analog_sensor_gnd" B R 15400 6250 60 
+F3 "analog_sensor_TPS" O L 12400 6250 60 
 $EndSheet
 $Sheet
-S 12400 6000 3000 200 
+S 12400 5300 3000 200 
 F0 "MAP_input" 60
 F1 "freeEMS_MAP_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 6050 60 
-F3 "analog_sensor_MAP" O L 12400 6050 60 
-F4 "analog_sensor_MAP_ambient" O L 12400 6150 60 
-F5 "5v reg" I R 15400 6150 60 
+F2 "analog_sensor_gnd" B R 15400 5350 60 
+F3 "analog_sensor_MAP" O L 12400 5350 60 
+F4 "analog_sensor_MAP_ambient" O L 12400 5450 60 
+F5 "5v reg" I R 15400 5450 60 
 $EndSheet
 $Sheet
-S 12400 5550 3000 200 
+S 12400 4850 3000 200 
 F0 "thermistor_input_1" 60
 F1 "freeEMS_thermistor_resistor_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 5600 60 
-F3 "analog_sensor_TEMP" O L 12400 5600 60 
-F4 "Measure_temp" I L 12400 5700 60 
-F5 "5vref" O R 15400 5700 60 
+F2 "analog_sensor_gnd" B R 15400 4900 60 
+F3 "analog_sensor_TEMP" O L 12400 4900 60 
+F4 "Measure_temp" I L 12400 5000 60 
+F5 "5vref" O R 15400 5000 60 
 $EndSheet
 $Sheet
-S 12400 5100 3000 200 
+S 12400 4400 3000 200 
 F0 "thermistor_input_1" 60
 F1 "freeEMS_thermistor_resistor_input.sch" 60
-F2 "analog_sensor_gnd" B R 15400 5150 60 
-F3 "analog_sensor_TEMP" O L 12400 5150 60 
-F4 "5vref" O R 15400 5250 60 
-F5 "Measure_temp" I L 12400 5250 60 
+F2 "analog_sensor_gnd" B R 15400 4450 60 
+F3 "analog_sensor_TEMP" O L 12400 4450 60 
+F4 "5vref" O R 15400 4550 60 
+F5 "Measure_temp" I L 12400 4550 60 
 $EndSheet
 $Sheet
 S 4050 1300 1350 5250
