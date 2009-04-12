@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  1/8/2008-10:24:01
+EESchema-DOCLIB  Version 2.0  2/8/2008-12:13:42
 #
 $CMP 7805
 D Linear Regulator +5V
@@ -11,6 +11,11 @@ D Condensateur non polarise
 $ENDCMP
 #
 $CMP CONN_2
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP CONN_3
 D Symbole general de connecteur
 K CONN
 $ENDCMP
@@ -41,11 +46,6 @@ $ENDCMP
 $CMP MPX4100A
 D MAP SENSOR
 K MAP MPX4100A
-$ENDCMP
-#
-$CMP POT
-D Potentionmetre
-K R
 $ENDCMP
 #
 $CMP R

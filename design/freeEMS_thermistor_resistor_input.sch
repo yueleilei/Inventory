@@ -6,7 +6,7 @@ $Descr A 11000 8500
 Sheet 29 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.04"
+Rev "A.05"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -14,20 +14,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2650 2350 3300 2350
+	3300 1750 3300 1450
 Wire Wire Line
-	2700 1450 3300 1450
+	2650 2150 3000 2150
 Wire Wire Line
 	2700 950  3300 950 
 Wire Wire Line
-	2650 2150 3000 2150
+	3300 1450 2700 1450
+Wire Wire Line
+	2650 2350 3300 2350
 $Comp
-L R R?
-U 1 1 4891053D
-P 3300 1700
-F 0 "R?" V 3380 1700 50  0000 C C
-F 1 "Rth" V 3300 1700 50  0000 C C
-	1    3300 1700
+L CONN_2 P?
+U 1 1 4893A9EA
+P 3650 1850
+F 0 "P?" V 3600 1850 40  0000 C C
+F 1 "therm" V 3700 1850 40  0000 C C
+	1    3650 1850
 	1    0    0    -1  
 $EndComp
 $Comp

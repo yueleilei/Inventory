@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 Sheet 26 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.04"
+Rev "A.05"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -14,22 +14,26 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3250 2200 3650 2200
+	4300 2200 4300 2050
 Wire Wire Line
-	3250 1700 3650 1700
+	3250 2200 4300 2200
 Wire Wire Line
-	3250 1950 3500 1950
+	4300 1950 3250 1950
+Wire Wire Line
+	3250 1700 4300 1700
+Wire Wire Line
+	4300 1700 4300 1850
+$Comp
+L CONN_3 K?
+U 1 1 4893AA3B
+P 4650 1950
+F 0 "K?" V 4600 1950 50  0000 C C
+F 1 "TPS" V 4700 1950 40  0000 C C
+	1    4650 1950
+	1    0    0    -1  
+$EndComp
 Text GLabel 3250 1700 0    60   Output
 5v_ref
-$Comp
-L POT RV?
-U 1 1 489116EC
-P 3650 1950
-F 0 "RV?" H 3650 1850 50  0000 C C
-F 1 "POT" H 3650 1950 50  0000 C C
-	1    3650 1950
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3250 2200 0    60   BiDi
 analog_sensor_gnd
 Text GLabel 3250 1950 0    60   Output

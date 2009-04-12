@@ -6,7 +6,7 @@ $Descr A4 11700 8267
 Sheet 24 31
 Title "freeEMS 1.0"
 Date "1 aug 2008"
-Rev "A.04"
+Rev "A.05"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -14,66 +14,79 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	3050 2200 3350 2200
-Connection ~ 3350 2600
-Connection ~ 3950 1650
+	4500 1750 4700 1750
 Wire Wire Line
-	3950 1650 3950 2700
+	4500 1750 4500 1950
 Wire Wire Line
-	3950 2700 4000 2700
-Connection ~ 3800 1950
+	4700 1650 3050 1650
 Wire Wire Line
-	3800 1750 3800 1950
+	3350 3200 3350 2200
 Wire Wire Line
-	4500 1850 4500 1950
-Connection ~ 3300 1350
+	6100 2600 5750 2600
+Connection ~ 3350 3000
 Wire Wire Line
-	3300 1450 3300 1350
+	3350 2600 4000 2600
+Connection ~ 3800 1650
 Wire Wire Line
-	3850 3200 4000 3200
-Connection ~ 5850 3200
+	3800 1450 3800 1650
+Connection ~ 3300 1650
 Wire Wire Line
-	6250 3200 5850 3200
-Connection ~ 6100 2100
-Wire Wire Line
-	6100 2200 6100 2100
-Wire Wire Line
-	3050 1650 4000 1650
-Wire Wire Line
-	3050 1350 4500 1350
-Wire Wire Line
-	4500 1950 3050 1950
-Wire Wire Line
-	5750 2100 6550 2100
-Wire Wire Line
-	6550 2100 6550 2150
-Wire Wire Line
-	5750 3100 5850 3100
-Wire Wire Line
-	5850 3100 5850 3500
-Wire Wire Line
-	3500 2800 3450 2800
-Wire Wire Line
-	3450 2800 3450 2850
-Wire Wire Line
-	3850 3000 4000 3000
+	3300 1750 3300 1650
 Wire Wire Line
 	4000 3600 4000 3700
 Wire Wire Line
-	4500 1350 4500 1450
+	3850 3000 4000 3000
 Wire Wire Line
-	3300 1750 3300 1650
-Connection ~ 3300 1650
+	3450 2850 3450 2800
 Wire Wire Line
-	3800 1450 3800 1650
-Connection ~ 3800 1650
+	3450 2800 3500 2800
 Wire Wire Line
-	3350 2600 4000 2600
-Connection ~ 3350 3000
+	5850 3500 5850 3100
 Wire Wire Line
-	6100 2600 5750 2600
+	5850 3100 5750 3100
 Wire Wire Line
-	3350 2200 3350 3200
+	6550 2150 6550 2100
+Wire Wire Line
+	6550 2100 5750 2100
+Wire Wire Line
+	4500 1950 3050 1950
+Wire Wire Line
+	3050 1350 4500 1350
+Wire Wire Line
+	6100 2200 6100 2100
+Connection ~ 6100 2100
+Wire Wire Line
+	6250 3200 5850 3200
+Connection ~ 5850 3200
+Wire Wire Line
+	3850 3200 4000 3200
+Wire Wire Line
+	3300 1450 3300 1350
+Connection ~ 3300 1350
+Wire Wire Line
+	3800 1750 3800 1950
+Connection ~ 3800 1950
+Wire Wire Line
+	4000 2700 3950 2700
+Wire Wire Line
+	3950 2700 3950 1650
+Connection ~ 3950 1650
+Connection ~ 3350 2600
+Wire Wire Line
+	3350 2200 3050 2200
+Wire Wire Line
+	4500 1350 4500 1550
+Wire Wire Line
+	4500 1550 4700 1550
+$Comp
+L CONN_3 K?
+U 1 1 4893AA78
+P 5050 1650
+F 0 "K?" V 5000 1650 50  0000 C C
+F 1 "HALL" V 5100 1650 40  0000 C C
+	1    5050 1650
+	1    0    0    -1  
+$EndComp
 NoConn ~ 4000 2900
 $Comp
 L R R?
@@ -219,15 +232,6 @@ F 1 "LM1815" H 4550 2450 60  0000 C C
 $EndComp
 Text GLabel 3050 1350 0    60   Input
 12v_batt
-$Comp
-L HALL Q?
-U 1 1 489115E8
-P 4400 1650
-F 0 "Q?" H 4550 1650 50  0000 C C
-F 1 "HALL" H 4302 1800 50  0000 C C
-	1    4400 1650
-	1    0    0    -1  
-$EndComp
 Text GLabel 3050 1950 0    60   BiDi
 analog_sensor_gnd
 Text GLabel 3050 1650 0    60   Output
