@@ -1,0 +1,8 @@
+A.09
+- added the change log and future steps log
+- fixed injector drives again, this time it saved correctly
+- changed 70R to 2K
+- ran BOM tool to generate a BOM called freeEMS_1.lst
+- semi automated template convert process, now edit the tempates, then run convert-template.sh to get the real schematics
+- added footprint to many resistors
+- change VR circuit some

@@ -1,0 +1,12 @@
+EESchema-DOCLIB  Version 2.0  10/8/2008-12:53:54
+#
+$CMP C
+D Condensateur non polarise
+$ENDCMP
+#
+$CMP MPX4100A
+D MAP SENSOR
+K MAP MPX4100A
+$ENDCMP
+#
+#End Doc Library

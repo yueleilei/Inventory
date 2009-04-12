@@ -5,8 +5,8 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 42 43
 Title "freeEMS 1.0"
-Date "9 aug 2008"
-Rev "A.08"
+Date "10 aug 2008"
+Rev "A.07"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -49,6 +49,7 @@ U 1 1 488E4A25
 P 3300 1200
 F 0 "R?" V 3380 1200 50  0000 C C
 F 1 "2.2k" V 3300 1200 50  0000 C C
+F 2 "R4-SM0805" V 3480 1300 60  0001 C C
 	1    3300 1200
 	1    0    0    -1  
 $EndComp

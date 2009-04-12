@@ -5,8 +5,8 @@ EELAYER END
 $Descr B 17000 11000
 Sheet 1 43
 Title "freeEMS 1.0"
-Date "9 aug 2008"
-Rev "A.08"
+Date "10 aug 2008"
+Rev "A.09"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""

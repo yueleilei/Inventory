@@ -1,5 +1,5 @@
-update=7/8/2008-00:33:27
-last_client=pcbnew
+update=10/8/2008-10:50:22
+last_client=kicad
 [eeschema]
 version=1
 LibDir=
@@ -62,10 +62,6 @@ LibName25=cypress
 LibName26=siliconi
 LibName27=contrib
 LibName28=valves
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 PadDrlX=320
@@ -132,3 +128,7 @@ LibName7=divers
 LibName8=libcms
 LibName9=display
 LibName10=valves
+[general]
+version=1
+RootSch=
+BoardNm=

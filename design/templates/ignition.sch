@@ -1,5 +1,5 @@
 EESchema Schematic File Version 1
-LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./freeEMS_1.cache
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 23  0
 EELAYER END
 $Descr A4 11700 8267
@@ -41,6 +41,7 @@ U 1 1 48950A8C
 P 3550 1450
 F 0 "R?" V 3630 1450 50  0000 C C
 F 1 "1k" V 3550 1450 50  0000 C C
+F 2 "R4-SM0805" V 3730 1550 60  0001 C C
 	1    3550 1450
 	-1   0    0    1   
 $EndComp
@@ -61,6 +62,7 @@ U 1 1 489395E6
 P 3300 2050
 F 0 "R?" V 3380 2050 50  0000 C C
 F 1 "1k" V 3300 2050 50  0000 C C
+F 2 "R4-SM0805" V 3480 2150 60  0001 C C
 	1    3300 2050
 	0    1    1    0   
 $EndComp
@@ -70,6 +72,7 @@ U 1 1 489395D4
 P 3300 1700
 F 0 "R?" V 3380 1700 50  0000 C C
 F 1 "1k" V 3300 1700 50  0000 C C
+F 2 "R4-SM0805" V 3480 1800 60  0001 C C
 	1    3300 1700
 	0    1    1    0   
 $EndComp

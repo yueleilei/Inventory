@@ -1,5 +1,5 @@
 EESchema Schematic File Version 1
-LIBS:power,./freeEMS_lib,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./freeEMS_1.cache
+LIBS:power,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 23  0
 EELAYER END
 $Descr A 11000 8500
@@ -83,7 +83,7 @@ U 1 1 489597C5
 P 3900 5450
 F 0 "R?" V 3980 5450 50  0000 C C
 F 1 "Xk" V 3900 5450 50  0000 C C
-F 2 "SM0805" V 4080 5550 60  0001 C C
+F 2 "R4-SM0805" V 4080 5550 60  0001 C C
 	1    3900 5450
 	0    1    1    0   
 $EndComp
@@ -121,7 +121,7 @@ U 1 1 489597C1
 P 2200 5450
 F 0 "R?" V 2280 5450 50  0000 C C
 F 1 "1k" V 2200 5450 50  0000 C C
-F 2 "SM0805" V 2380 5550 60  0001 C C
+F 2 "R4-SM0805" V 2380 5550 60  0001 C C
 	1    2200 5450
 	0    1    1    0   
 $EndComp
@@ -145,7 +145,7 @@ U 1 1 489597BF
 P 3950 4050
 F 0 "R?" V 4030 4050 50  0000 C C
 F 1 "Xk" V 3950 4050 50  0000 C C
-F 2 "SM0805" V 4130 4150 60  0001 C C
+F 2 "R4-SM0805" V 4130 4150 60  0001 C C
 	1    3950 4050
 	0    1    1    0   
 $EndComp
@@ -183,7 +183,7 @@ U 1 1 489597BB
 P 2250 4050
 F 0 "R?" V 2330 4050 50  0000 C C
 F 1 "1k" V 2250 4050 50  0000 C C
-F 2 "SM0805" V 2430 4150 60  0001 C C
+F 2 "R4-SM0805" V 2430 4150 60  0001 C C
 	1    2250 4050
 	0    1    1    0   
 $EndComp
@@ -207,7 +207,7 @@ U 1 1 489597B9
 P 4000 2750
 F 0 "R?" V 4080 2750 50  0000 C C
 F 1 "Xk" V 4000 2750 50  0000 C C
-F 2 "SM0805" V 4180 2850 60  0001 C C
+F 2 "R4-SM0805" V 4180 2850 60  0001 C C
 	1    4000 2750
 	0    1    1    0   
 $EndComp
@@ -245,7 +245,7 @@ U 1 1 489597B5
 P 2300 2750
 F 0 "R?" V 2380 2750 50  0000 C C
 F 1 "1k" V 2300 2750 50  0000 C C
-F 2 "SM0805" V 2480 2850 60  0001 C C
+F 2 "R4-SM0805" V 2480 2850 60  0001 C C
 	1    2300 2750
 	0    1    1    0   
 $EndComp
@@ -269,7 +269,7 @@ U 1 1 488CCA4A
 P 4050 1400
 F 0 "R?" V 4130 1400 50  0000 C C
 F 1 "Xk" V 4050 1400 50  0000 C C
-F 2 "SM0805" V 4230 1500 60  0001 C C
+F 2 "R4-SM0805" V 4230 1500 60  0001 C C
 	1    4050 1400
 	0    1    1    0   
 $EndComp
@@ -307,7 +307,7 @@ U 1 1 486F8B82
 P 2350 1400
 F 0 "R?" V 2430 1400 50  0000 C C
 F 1 "1k" V 2350 1400 50  0000 C C
-F 2 "SM0805" V 2530 1500 60  0001 C C
+F 2 "R4-SM0805" V 2530 1500 60  0001 C C
 	1    2350 1400
 	0    1    1    0   
 $EndComp

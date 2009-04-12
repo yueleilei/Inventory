@@ -5,8 +5,8 @@ EELAYER END
 $Descr A 11000 8500
 Sheet 2 43
 Title "freeEMS 1.0"
-Date "9 aug 2008"
-Rev "A.08"
+Date "10 aug 2008"
+Rev "A.07"
 Comp "diyefi.org"
 Comment1 ""
 Comment2 ""
@@ -68,11 +68,11 @@ Text Notes 650  7150 0    60   ~
 -- Ultra high frequency ceramic 0.1uF capacitor (larger units with similar frequency response would also be acceptable)
 Text Notes 650  7250 0    60   ~
 -- Power feed and ground for CPU core
-Text GLabel 2150 3300 0    60   Output
+Text GLabel 2250 3300 0    60   Output
 5v reg
-Text GLabel 8250 3300 0    60   Input
+Text GLabel 7600 3300 2    60   Input
 12v batt
-Text GLabel 7900 3650 0    60   BiDi
+Text GLabel 2250 3700 0    60   BiDi
 gnd
 Connection ~ 6300 3700
 Connection ~ 5700 3700
@@ -199,6 +199,7 @@ U 1 1 486CA8FD
 P 6750 3300
 F 0 "R?" V 6830 3300 50  0000 C C
 F 1 "1R" V 6750 3300 50  0000 C C
+F 2 "R4-SM0805" V 6930 3400 60  0001 C C
 	1    6750 3300
 	0    1    1    0   
 $EndComp
