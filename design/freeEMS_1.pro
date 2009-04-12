@@ -1,4 +1,4 @@
-update=3/8/2008-00:20:22
+update=7/8/2008-00:33:27
 last_client=pcbnew
 [eeschema]
 version=1
@@ -123,11 +123,12 @@ ShowMRa=0
 [pcbnew/libraries]
 LibDir=
 LibName1=supports
-LibName2=diyefi
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=display
-LibName9=valves
+LibName2=/home/mythtv/freeEMS/hard/PCB-modules/free_EMS
+LibName3=diyefi
+LibName4=connect
+LibName5=discret
+LibName6=pin_array
+LibName7=divers
+LibName8=libcms
+LibName9=display
+LibName10=valves
