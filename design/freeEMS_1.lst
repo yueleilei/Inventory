@@ -1,0 +1,1844 @@
+EESchema (2007-07-09)  >> Creation date: 10/8/2008-13:52:51
+
+#Cmp ( order = Reference ) (with SubCmp)
+| C?         .001 uF        (Sheet 36: "RPM_input_2")
+| C?         .001 uF        (Sheet 37: "RPM_input_1")
+| C?         .1 uF          (Sheet 36: "RPM_input_2")
+| C?         .1 uF          (Sheet 37: "RPM_input_1")
+| C?         .1uF           (Sheet 02: "power regulator switched")
+| C?         .1uF           (Sheet 03: "power regulator constant")
+| C?         .33 uF         (Sheet 36: "RPM_input_2")
+| C?         .33 uF         (Sheet 37: "RPM_input_1")
+| C?         100nF          (Sheet 04: "digi_protect__I1")
+| C?         100nF          (Sheet 05: "digi_protect__I2")
+| C?         100nF          (Sheet 06: "digi_protect__I3")
+| C?         100nF          (Sheet 07: "digi_protect__I4")
+| C?         100nF          (Sheet 08: "digi_protect__I5")
+| C?         100nF          (Sheet 09: "digi_protect__I6")
+| C?         100nF          (Sheet 17: "digi_protect_rpm1")
+| C?         100nF          (Sheet 18: "digi_protect_rpm2")
+| C?         100nF          (Sheet 19: "digi_protect_fuel")
+| C?         100nF          (Sheet 20: "digi_protect_misc1")
+| C?         100nf          (Sheet 21: "analog_protect_1")
+| C?         100nf          (Sheet 21: "analog_protect_1")
+| C?         100nf          (Sheet 21: "analog_protect_1")
+| C?         100nf          (Sheet 21: "analog_protect_1")
+| C?         100nf          (Sheet 22: "analog_protect_2")
+| C?         100nf          (Sheet 22: "analog_protect_2")
+| C?         100nf          (Sheet 22: "analog_protect_2")
+| C?         100nf          (Sheet 22: "analog_protect_2")
+| C?         100nf          (Sheet 23: "analog_protect_3")
+| C?         100nf          (Sheet 23: "analog_protect_3")
+| C?         100nf          (Sheet 23: "analog_protect_3")
+| C?         100nf          (Sheet 23: "analog_protect_3")
+| C?         100nf          (Sheet 24: "analog_protect_4")
+| C?         100nf          (Sheet 24: "analog_protect_4")
+| C?         100nf          (Sheet 24: "analog_protect_4")
+| C?         100nf          (Sheet 24: "analog_protect_4")
+| C?         100nF          (Sheet 28: "digi_protect_misc2")
+| C?         10pF           (Sheet 26: "misc ouput 2")
+| C?         10pF           (Sheet 27: "misc ouput 1")
+| C?         10pF           (Sheet 29: "Fuel_pump")
+| C?         10pF           (Sheet 30: "injector_drive_1")
+| C?         10pF           (Sheet 31: "injector_drive_2")
+| C?         10pF           (Sheet 32: "injector_drive_3")
+| C?         10pF           (Sheet 33: "injector_drive_4")
+| C?         10pF           (Sheet 34: "injector_drive_5")
+| C?         10pF           (Sheet 35: "injector_drive_6")
+| C?         10uF           (Sheet 02: "power regulator switched")
+| C?         10uF           (Sheet 02: "power regulator switched")
+| C?         10uF           (Sheet 03: "power regulator constant")
+| C?         10uF           (Sheet 03: "power regulator constant")
+| C?         1uF            (Sheet 02: "power regulator switched")
+| C?         1uF            (Sheet 03: "power regulator constant")
+| C?         2200uF         (Sheet 02: "power regulator switched")
+| C?         2200uF         (Sheet 02: "power regulator switched")
+| C?         2200uF         (Sheet 03: "power regulator constant")
+| C?         2200uF         (Sheet 03: "power regulator constant")
+| C?         330 pF         (Sheet 36: "RPM_input_2")
+| C?         330 pF         (Sheet 37: "RPM_input_1")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 16: "MAP_input_2")
+| C?         C              (Sheet 40: "MAP_input_1")
+| C?         C              (Sheet 40: "MAP_input_1")
+| C?         C              (Sheet 40: "MAP_input_1")
+| C?         C              (Sheet 40: "MAP_input_1")
+| C?         C              (Sheet 40: "MAP_input_1")
+| C?         C              (Sheet 40: "MAP_input_1")
+| D?         1N4007         (Sheet 02: "power regulator switched")
+| D?         1N4007         (Sheet 02: "power regulator switched")
+| D?         1N4007         (Sheet 03: "power regulator constant")
+| D?         1N4007         (Sheet 03: "power regulator constant")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 21: "analog_protect_1")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 22: "analog_protect_2")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 23: "analog_protect_3")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         1N4148         (Sheet 24: "analog_protect_4")
+| D?         20V            (Sheet 02: "power regulator switched")
+| D?         20V            (Sheet 03: "power regulator constant")
+| D?         5V1            (Sheet 04: "digi_protect__I1")
+| D?         5V1            (Sheet 05: "digi_protect__I2")
+| D?         5V1            (Sheet 06: "digi_protect__I3")
+| D?         5V1            (Sheet 07: "digi_protect__I4")
+| D?         5V1            (Sheet 08: "digi_protect__I5")
+| D?         5V1            (Sheet 09: "digi_protect__I6")
+| D?         5V1            (Sheet 17: "digi_protect_rpm1")
+| D?         5V1            (Sheet 18: "digi_protect_rpm2")
+| D?         5V1            (Sheet 19: "digi_protect_fuel")
+| D?         5V1            (Sheet 20: "digi_protect_misc1")
+| D?         5V1            (Sheet 28: "digi_protect_misc2")
+| D?         DIODE          (Sheet 04: "digi_protect__I1")
+| D?         DIODE          (Sheet 05: "digi_protect__I2")
+| D?         DIODE          (Sheet 06: "digi_protect__I3")
+| D?         DIODE          (Sheet 07: "digi_protect__I4")
+| D?         DIODE          (Sheet 08: "digi_protect__I5")
+| D?         DIODE          (Sheet 09: "digi_protect__I6")
+| D?         DIODE          (Sheet 17: "digi_protect_rpm1")
+| D?         DIODE          (Sheet 18: "digi_protect_rpm2")
+| D?         DIODE          (Sheet 19: "digi_protect_fuel")
+| D?         DIODE          (Sheet 20: "digi_protect_misc1")
+| D?         DIODE          (Sheet 28: "digi_protect_misc2")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         LED            (Sheet 01: "Root")
+| D?         snubber        (Sheet 30: "injector_drive_1")
+| D?         snubber        (Sheet 31: "injector_drive_2")
+| D?         snubber        (Sheet 32: "injector_drive_3")
+| D?         snubber        (Sheet 33: "injector_drive_4")
+| D?         snubber        (Sheet 34: "injector_drive_5")
+| D?         snubber        (Sheet 35: "injector_drive_6")
+| D?         snubber2       (Sheet 30: "injector_drive_1")
+| D?         snubber2       (Sheet 31: "injector_drive_2")
+| D?         snubber2       (Sheet 32: "injector_drive_3")
+| D?         snubber2       (Sheet 33: "injector_drive_4")
+| D?         snubber2       (Sheet 34: "injector_drive_5")
+| D?         snubber2       (Sheet 35: "injector_drive_6")
+| D?         ZENER 5V       (Sheet 30: "injector_drive_1")
+| D?         ZENER 5V       (Sheet 31: "injector_drive_2")
+| D?         ZENER 5V       (Sheet 32: "injector_drive_3")
+| D?         ZENER 5V       (Sheet 33: "injector_drive_4")
+| D?         ZENER 5V       (Sheet 34: "injector_drive_5")
+| D?         ZENER 5V       (Sheet 35: "injector_drive_6")
+| K?         HALL           (Sheet 36: "RPM_input_2")
+| K?         HALL           (Sheet 37: "RPM_input_1")
+| K?         TPS            (Sheet 39: "TPS_input")
+| L?         INDUCTOR       (Sheet 30: "injector_drive_1")
+| L?         INDUCTOR       (Sheet 31: "injector_drive_2")
+| L?         INDUCTOR       (Sheet 32: "injector_drive_3")
+| L?         INDUCTOR       (Sheet 33: "injector_drive_4")
+| L?         INDUCTOR       (Sheet 34: "injector_drive_5")
+| L?         INDUCTOR       (Sheet 35: "injector_drive_6")
+| P?         12V GND        (Sheet 01: "Root")
+| P?         9S12XDP512     (Sheet 43: "CPU")
+| P?         I driv         (Sheet 10: "igniter_6")
+| P?         I driv         (Sheet 11: "igniter_5")
+| P?         I driv         (Sheet 12: "igniter_4")
+| P?         I driv         (Sheet 13: "igniter_3")
+| P?         I driv         (Sheet 14: "igniter_2")
+| P?         I driv         (Sheet 15: "igniter_1")
+| P?         INJECT         (Sheet 26: "misc ouput 2")
+| P?         INJECT         (Sheet 27: "misc ouput 1")
+| P?         INJECT         (Sheet 29: "Fuel_pump")
+| P?         INJECT         (Sheet 30: "injector_drive_1")
+| P?         INJECT         (Sheet 31: "injector_drive_2")
+| P?         INJECT         (Sheet 32: "injector_drive_3")
+| P?         INJECT         (Sheet 33: "injector_drive_4")
+| P?         INJECT         (Sheet 34: "injector_drive_5")
+| P?         INJECT         (Sheet 35: "injector_drive_6")
+| P?         O2 CON         (Sheet 25: "O2 INPUT")
+| P?         therm          (Sheet 41: "thermistor_input_2")
+| P?         therm          (Sheet 42: "thermistor_input_1")
+| P?         VR con         (Sheet 36: "RPM_input_2")
+| P?         VR con         (Sheet 37: "RPM_input_1")
+| Q?         HALL           (Sheet 30: "injector_drive_1")
+| Q?         HALL           (Sheet 31: "injector_drive_2")
+| Q?         HALL           (Sheet 32: "injector_drive_3")
+| Q?         HALL           (Sheet 33: "injector_drive_4")
+| Q?         HALL           (Sheet 34: "injector_drive_5")
+| Q?         HALL           (Sheet 35: "injector_drive_6")
+| Q?         MOS_N          (Sheet 41: "thermistor_input_2")
+| Q?         MOS_N          (Sheet 42: "thermistor_input_1")
+| Q?         MOSFET_N       (Sheet 10: "igniter_6")
+| Q?         MOSFET_N       (Sheet 11: "igniter_5")
+| Q?         MOSFET_N       (Sheet 12: "igniter_4")
+| Q?         MOSFET_N       (Sheet 13: "igniter_3")
+| Q?         MOSFET_N       (Sheet 14: "igniter_2")
+| Q?         MOSFET_N       (Sheet 15: "igniter_1")
+| Q?         PIP3104        (Sheet 26: "misc ouput 2")
+| Q?         PIP3104        (Sheet 27: "misc ouput 1")
+| Q?         PIP3104        (Sheet 29: "Fuel_pump")
+| Q?         PIP3104        (Sheet 30: "injector_drive_1")
+| Q?         PIP3104        (Sheet 31: "injector_drive_2")
+| Q?         PIP3104        (Sheet 32: "injector_drive_3")
+| Q?         PIP3104        (Sheet 33: "injector_drive_4")
+| Q?         PIP3104        (Sheet 34: "injector_drive_5")
+| Q?         PIP3104        (Sheet 35: "injector_drive_6")
+| R?         0R             (Sheet 30: "injector_drive_1")
+| R?         0R             (Sheet 31: "injector_drive_2")
+| R?         0R             (Sheet 32: "injector_drive_3")
+| R?         0R             (Sheet 33: "injector_drive_4")
+| R?         0R             (Sheet 34: "injector_drive_5")
+| R?         0R             (Sheet 35: "injector_drive_6")
+| R?         1.6M           (Sheet 36: "RPM_input_2")
+| R?         1.6M           (Sheet 37: "RPM_input_1")
+| R?         100k           (Sheet 26: "misc ouput 2")
+| R?         100k           (Sheet 27: "misc ouput 1")
+| R?         100k           (Sheet 29: "Fuel_pump")
+| R?         100k           (Sheet 30: "injector_drive_1")
+| R?         100k           (Sheet 31: "injector_drive_2")
+| R?         100k           (Sheet 32: "injector_drive_3")
+| R?         100k           (Sheet 33: "injector_drive_4")
+| R?         100k           (Sheet 34: "injector_drive_5")
+| R?         100k           (Sheet 35: "injector_drive_6")
+| R?         10k            (Sheet 04: "digi_protect__I1")
+| R?         10k            (Sheet 04: "digi_protect__I1")
+| R?         10k            (Sheet 05: "digi_protect__I2")
+| R?         10k            (Sheet 05: "digi_protect__I2")
+| R?         10k            (Sheet 06: "digi_protect__I3")
+| R?         10k            (Sheet 06: "digi_protect__I3")
+| R?         10k            (Sheet 07: "digi_protect__I4")
+| R?         10k            (Sheet 07: "digi_protect__I4")
+| R?         10k            (Sheet 08: "digi_protect__I5")
+| R?         10k            (Sheet 08: "digi_protect__I5")
+| R?         10k            (Sheet 09: "digi_protect__I6")
+| R?         10k            (Sheet 09: "digi_protect__I6")
+| R?         10k            (Sheet 17: "digi_protect_rpm1")
+| R?         10k            (Sheet 17: "digi_protect_rpm1")
+| R?         10k            (Sheet 18: "digi_protect_rpm2")
+| R?         10k            (Sheet 18: "digi_protect_rpm2")
+| R?         10k            (Sheet 19: "digi_protect_fuel")
+| R?         10k            (Sheet 19: "digi_protect_fuel")
+| R?         10k            (Sheet 20: "digi_protect_misc1")
+| R?         10k            (Sheet 20: "digi_protect_misc1")
+| R?         10k            (Sheet 28: "digi_protect_misc2")
+| R?         10k            (Sheet 28: "digi_protect_misc2")
+| R?         10k            (Sheet 38: "BAT_input")
+| R?         150k           (Sheet 36: "RPM_input_2")
+| R?         150k           (Sheet 37: "RPM_input_1")
+| R?         18k            (Sheet 36: "RPM_input_2")
+| R?         18k            (Sheet 37: "RPM_input_1")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 01: "Root")
+| R?         1k             (Sheet 10: "igniter_6")
+| R?         1k             (Sheet 10: "igniter_6")
+| R?         1k             (Sheet 10: "igniter_6")
+| R?         1k             (Sheet 11: "igniter_5")
+| R?         1k             (Sheet 11: "igniter_5")
+| R?         1k             (Sheet 11: "igniter_5")
+| R?         1k             (Sheet 12: "igniter_4")
+| R?         1k             (Sheet 12: "igniter_4")
+| R?         1k             (Sheet 12: "igniter_4")
+| R?         1k             (Sheet 13: "igniter_3")
+| R?         1k             (Sheet 13: "igniter_3")
+| R?         1k             (Sheet 13: "igniter_3")
+| R?         1k             (Sheet 14: "igniter_2")
+| R?         1k             (Sheet 14: "igniter_2")
+| R?         1k             (Sheet 14: "igniter_2")
+| R?         1k             (Sheet 15: "igniter_1")
+| R?         1k             (Sheet 15: "igniter_1")
+| R?         1k             (Sheet 15: "igniter_1")
+| R?         1k             (Sheet 21: "analog_protect_1")
+| R?         1k             (Sheet 21: "analog_protect_1")
+| R?         1k             (Sheet 21: "analog_protect_1")
+| R?         1k             (Sheet 21: "analog_protect_1")
+| R?         1k             (Sheet 22: "analog_protect_2")
+| R?         1k             (Sheet 22: "analog_protect_2")
+| R?         1k             (Sheet 22: "analog_protect_2")
+| R?         1k             (Sheet 22: "analog_protect_2")
+| R?         1k             (Sheet 23: "analog_protect_3")
+| R?         1k             (Sheet 23: "analog_protect_3")
+| R?         1k             (Sheet 23: "analog_protect_3")
+| R?         1k             (Sheet 23: "analog_protect_3")
+| R?         1k             (Sheet 24: "analog_protect_4")
+| R?         1k             (Sheet 24: "analog_protect_4")
+| R?         1k             (Sheet 24: "analog_protect_4")
+| R?         1k             (Sheet 24: "analog_protect_4")
+| R?         1K             (Sheet 26: "misc ouput 2")
+| R?         1K             (Sheet 27: "misc ouput 1")
+| R?         1K             (Sheet 29: "Fuel_pump")
+| R?         1K             (Sheet 30: "injector_drive_1")
+| R?         1K             (Sheet 31: "injector_drive_2")
+| R?         1K             (Sheet 32: "injector_drive_3")
+| R?         1K             (Sheet 33: "injector_drive_4")
+| R?         1K             (Sheet 34: "injector_drive_5")
+| R?         1K             (Sheet 35: "injector_drive_6")
+| R?         1k             (Sheet 36: "RPM_input_2")
+| R?         1k             (Sheet 36: "RPM_input_2")
+| R?         1k             (Sheet 36: "RPM_input_2")
+| R?         1k             (Sheet 37: "RPM_input_1")
+| R?         1k             (Sheet 37: "RPM_input_1")
+| R?         1k             (Sheet 37: "RPM_input_1")
+| R?         1R             (Sheet 02: "power regulator switched")
+| R?         1R             (Sheet 03: "power regulator constant")
+| R?         2.2k           (Sheet 41: "thermistor_input_2")
+| R?         2.2k           (Sheet 42: "thermistor_input_1")
+| R?         2K             (Sheet 26: "misc ouput 2")
+| R?         2K             (Sheet 27: "misc ouput 1")
+| R?         2K             (Sheet 29: "Fuel_pump")
+| R?         2K             (Sheet 30: "injector_drive_1")
+| R?         2k             (Sheet 30: "injector_drive_1")
+| R?         2K             (Sheet 31: "injector_drive_2")
+| R?         2k             (Sheet 31: "injector_drive_2")
+| R?         2K             (Sheet 32: "injector_drive_3")
+| R?         2k             (Sheet 32: "injector_drive_3")
+| R?         2K             (Sheet 33: "injector_drive_4")
+| R?         2k             (Sheet 33: "injector_drive_4")
+| R?         2K             (Sheet 34: "injector_drive_5")
+| R?         2k             (Sheet 34: "injector_drive_5")
+| R?         2K             (Sheet 35: "injector_drive_6")
+| R?         2k             (Sheet 35: "injector_drive_6")
+| R?         39k            (Sheet 38: "BAT_input")
+| R?         5.6k           (Sheet 36: "RPM_input_2")
+| R?         5.6k           (Sheet 37: "RPM_input_1")
+| R?         600R           (Sheet 30: "injector_drive_1")
+| R?         600R           (Sheet 31: "injector_drive_2")
+| R?         600R           (Sheet 32: "injector_drive_3")
+| R?         600R           (Sheet 33: "injector_drive_4")
+| R?         600R           (Sheet 34: "injector_drive_5")
+| R?         600R           (Sheet 35: "injector_drive_6")
+| R?         Xk             (Sheet 21: "analog_protect_1")
+| R?         Xk             (Sheet 21: "analog_protect_1")
+| R?         Xk             (Sheet 21: "analog_protect_1")
+| R?         Xk             (Sheet 21: "analog_protect_1")
+| R?         Xk             (Sheet 22: "analog_protect_2")
+| R?         Xk             (Sheet 22: "analog_protect_2")
+| R?         Xk             (Sheet 22: "analog_protect_2")
+| R?         Xk             (Sheet 22: "analog_protect_2")
+| R?         Xk             (Sheet 23: "analog_protect_3")
+| R?         Xk             (Sheet 23: "analog_protect_3")
+| R?         Xk             (Sheet 23: "analog_protect_3")
+| R?         Xk             (Sheet 23: "analog_protect_3")
+| R?         Xk             (Sheet 24: "analog_protect_4")
+| R?         Xk             (Sheet 24: "analog_protect_4")
+| R?         Xk             (Sheet 24: "analog_protect_4")
+| R?         Xk             (Sheet 24: "analog_protect_4")
+| SW?        SWITCH_INV     (Sheet 36: "RPM_input_2")
+| SW?        SWITCH_INV     (Sheet 37: "RPM_input_1")
+| U?         5V LDO         (Sheet 02: "power regulator switched")
+| U?         5V LDO         (Sheet 03: "power regulator constant")
+| U?         LM1815         (Sheet 36: "RPM_input_2")
+| U?         LM1815         (Sheet 37: "RPM_input_1")
+| U?         MPX4100A       (Sheet 16: "MAP_input_2")
+| U?         MPX4100A       (Sheet 16: "MAP_input_2")
+| U?         MPX4100A       (Sheet 40: "MAP_input_1")
+| U?         MPX4100A       (Sheet 40: "MAP_input_1")
+#End Cmp
+
+#Cmp ( order = Value ) (with SubCmp)
+| .001 uF      C?           (Sheet 36)
+| .001 uF      C?           (Sheet 37)
+| .1 uF        C?           (Sheet 36)
+| .1 uF        C?           (Sheet 37)
+| .1uF         C?           (Sheet 02)
+| .1uF         C?           (Sheet 03)
+| .33 uF       C?           (Sheet 36)
+| .33 uF       C?           (Sheet 37)
+| 0R           R?           (Sheet 30)
+| 0R           R?           (Sheet 31)
+| 0R           R?           (Sheet 32)
+| 0R           R?           (Sheet 33)
+| 0R           R?           (Sheet 34)
+| 0R           R?           (Sheet 35)
+| 1.6M         R?           (Sheet 36)
+| 1.6M         R?           (Sheet 37)
+| 100k         R?           (Sheet 26)
+| 100k         R?           (Sheet 27)
+| 100k         R?           (Sheet 29)
+| 100k         R?           (Sheet 30)
+| 100k         R?           (Sheet 31)
+| 100k         R?           (Sheet 32)
+| 100k         R?           (Sheet 33)
+| 100k         R?           (Sheet 34)
+| 100k         R?           (Sheet 35)
+| 100nF        C?           (Sheet 04)
+| 100nF        C?           (Sheet 05)
+| 100nF        C?           (Sheet 06)
+| 100nF        C?           (Sheet 07)
+| 100nF        C?           (Sheet 08)
+| 100nF        C?           (Sheet 09)
+| 100nF        C?           (Sheet 17)
+| 100nF        C?           (Sheet 18)
+| 100nF        C?           (Sheet 19)
+| 100nF        C?           (Sheet 20)
+| 100nf        C?           (Sheet 21)
+| 100nf        C?           (Sheet 21)
+| 100nf        C?           (Sheet 21)
+| 100nf        C?           (Sheet 21)
+| 100nf        C?           (Sheet 22)
+| 100nf        C?           (Sheet 22)
+| 100nf        C?           (Sheet 22)
+| 100nf        C?           (Sheet 22)
+| 100nf        C?           (Sheet 23)
+| 100nf        C?           (Sheet 23)
+| 100nf        C?           (Sheet 23)
+| 100nf        C?           (Sheet 23)
+| 100nf        C?           (Sheet 24)
+| 100nf        C?           (Sheet 24)
+| 100nf        C?           (Sheet 24)
+| 100nf        C?           (Sheet 24)
+| 100nF        C?           (Sheet 28)
+| 10k          R?           (Sheet 04)
+| 10k          R?           (Sheet 04)
+| 10k          R?           (Sheet 05)
+| 10k          R?           (Sheet 05)
+| 10k          R?           (Sheet 06)
+| 10k          R?           (Sheet 06)
+| 10k          R?           (Sheet 07)
+| 10k          R?           (Sheet 07)
+| 10k          R?           (Sheet 08)
+| 10k          R?           (Sheet 08)
+| 10k          R?           (Sheet 09)
+| 10k          R?           (Sheet 09)
+| 10k          R?           (Sheet 17)
+| 10k          R?           (Sheet 17)
+| 10k          R?           (Sheet 18)
+| 10k          R?           (Sheet 18)
+| 10k          R?           (Sheet 19)
+| 10k          R?           (Sheet 19)
+| 10k          R?           (Sheet 20)
+| 10k          R?           (Sheet 20)
+| 10k          R?           (Sheet 28)
+| 10k          R?           (Sheet 28)
+| 10k          R?           (Sheet 38)
+| 10pF         C?           (Sheet 26)
+| 10pF         C?           (Sheet 27)
+| 10pF         C?           (Sheet 29)
+| 10pF         C?           (Sheet 30)
+| 10pF         C?           (Sheet 31)
+| 10pF         C?           (Sheet 32)
+| 10pF         C?           (Sheet 33)
+| 10pF         C?           (Sheet 34)
+| 10pF         C?           (Sheet 35)
+| 10uF         C?           (Sheet 02)
+| 10uF         C?           (Sheet 02)
+| 10uF         C?           (Sheet 03)
+| 10uF         C?           (Sheet 03)
+| 12V GND      P?           (Sheet 01)
+| 150k         R?           (Sheet 36)
+| 150k         R?           (Sheet 37)
+| 18k          R?           (Sheet 36)
+| 18k          R?           (Sheet 37)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 01)
+| 1k           R?           (Sheet 10)
+| 1k           R?           (Sheet 10)
+| 1k           R?           (Sheet 10)
+| 1k           R?           (Sheet 11)
+| 1k           R?           (Sheet 11)
+| 1k           R?           (Sheet 11)
+| 1k           R?           (Sheet 12)
+| 1k           R?           (Sheet 12)
+| 1k           R?           (Sheet 12)
+| 1k           R?           (Sheet 13)
+| 1k           R?           (Sheet 13)
+| 1k           R?           (Sheet 13)
+| 1k           R?           (Sheet 14)
+| 1k           R?           (Sheet 14)
+| 1k           R?           (Sheet 14)
+| 1k           R?           (Sheet 15)
+| 1k           R?           (Sheet 15)
+| 1k           R?           (Sheet 15)
+| 1k           R?           (Sheet 21)
+| 1k           R?           (Sheet 21)
+| 1k           R?           (Sheet 21)
+| 1k           R?           (Sheet 21)
+| 1k           R?           (Sheet 22)
+| 1k           R?           (Sheet 22)
+| 1k           R?           (Sheet 22)
+| 1k           R?           (Sheet 22)
+| 1k           R?           (Sheet 23)
+| 1k           R?           (Sheet 23)
+| 1k           R?           (Sheet 23)
+| 1k           R?           (Sheet 23)
+| 1k           R?           (Sheet 24)
+| 1k           R?           (Sheet 24)
+| 1k           R?           (Sheet 24)
+| 1k           R?           (Sheet 24)
+| 1K           R?           (Sheet 26)
+| 1K           R?           (Sheet 27)
+| 1K           R?           (Sheet 29)
+| 1K           R?           (Sheet 30)
+| 1K           R?           (Sheet 31)
+| 1K           R?           (Sheet 32)
+| 1K           R?           (Sheet 33)
+| 1K           R?           (Sheet 34)
+| 1K           R?           (Sheet 35)
+| 1k           R?           (Sheet 36)
+| 1k           R?           (Sheet 36)
+| 1k           R?           (Sheet 36)
+| 1k           R?           (Sheet 37)
+| 1k           R?           (Sheet 37)
+| 1k           R?           (Sheet 37)
+| 1N4007       D?           (Sheet 02)
+| 1N4007       D?           (Sheet 02)
+| 1N4007       D?           (Sheet 03)
+| 1N4007       D?           (Sheet 03)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 21)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 22)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 23)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1N4148       D?           (Sheet 24)
+| 1R           R?           (Sheet 02)
+| 1R           R?           (Sheet 03)
+| 1uF          C?           (Sheet 02)
+| 1uF          C?           (Sheet 03)
+| 2.2k         R?           (Sheet 41)
+| 2.2k         R?           (Sheet 42)
+| 20V          D?           (Sheet 02)
+| 20V          D?           (Sheet 03)
+| 2200uF       C?           (Sheet 02)
+| 2200uF       C?           (Sheet 02)
+| 2200uF       C?           (Sheet 03)
+| 2200uF       C?           (Sheet 03)
+| 2K           R?           (Sheet 26)
+| 2K           R?           (Sheet 27)
+| 2K           R?           (Sheet 29)
+| 2K           R?           (Sheet 30)
+| 2k           R?           (Sheet 30)
+| 2K           R?           (Sheet 31)
+| 2k           R?           (Sheet 31)
+| 2K           R?           (Sheet 32)
+| 2k           R?           (Sheet 32)
+| 2K           R?           (Sheet 33)
+| 2k           R?           (Sheet 33)
+| 2K           R?           (Sheet 34)
+| 2k           R?           (Sheet 34)
+| 2K           R?           (Sheet 35)
+| 2k           R?           (Sheet 35)
+| 330 pF       C?           (Sheet 36)
+| 330 pF       C?           (Sheet 37)
+| 39k          R?           (Sheet 38)
+| 5.6k         R?           (Sheet 36)
+| 5.6k         R?           (Sheet 37)
+| 5V LDO       U?           (Sheet 02)
+| 5V LDO       U?           (Sheet 03)
+| 5V1          D?           (Sheet 04)
+| 5V1          D?           (Sheet 05)
+| 5V1          D?           (Sheet 06)
+| 5V1          D?           (Sheet 07)
+| 5V1          D?           (Sheet 08)
+| 5V1          D?           (Sheet 09)
+| 5V1          D?           (Sheet 17)
+| 5V1          D?           (Sheet 18)
+| 5V1          D?           (Sheet 19)
+| 5V1          D?           (Sheet 20)
+| 5V1          D?           (Sheet 28)
+| 600R         R?           (Sheet 30)
+| 600R         R?           (Sheet 31)
+| 600R         R?           (Sheet 32)
+| 600R         R?           (Sheet 33)
+| 600R         R?           (Sheet 34)
+| 600R         R?           (Sheet 35)
+| 9S12XDP512   P?           (Sheet 43)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 16)
+| C            C?           (Sheet 40)
+| C            C?           (Sheet 40)
+| C            C?           (Sheet 40)
+| C            C?           (Sheet 40)
+| C            C?           (Sheet 40)
+| C            C?           (Sheet 40)
+| DIODE        D?           (Sheet 04)
+| DIODE        D?           (Sheet 05)
+| DIODE        D?           (Sheet 06)
+| DIODE        D?           (Sheet 07)
+| DIODE        D?           (Sheet 08)
+| DIODE        D?           (Sheet 09)
+| DIODE        D?           (Sheet 17)
+| DIODE        D?           (Sheet 18)
+| DIODE        D?           (Sheet 19)
+| DIODE        D?           (Sheet 20)
+| DIODE        D?           (Sheet 28)
+| HALL         K?           (Sheet 36)
+| HALL         K?           (Sheet 37)
+| HALL         Q?           (Sheet 30)
+| HALL         Q?           (Sheet 31)
+| HALL         Q?           (Sheet 32)
+| HALL         Q?           (Sheet 33)
+| HALL         Q?           (Sheet 34)
+| HALL         Q?           (Sheet 35)
+| I driv       P?           (Sheet 10)
+| I driv       P?           (Sheet 11)
+| I driv       P?           (Sheet 12)
+| I driv       P?           (Sheet 13)
+| I driv       P?           (Sheet 14)
+| I driv       P?           (Sheet 15)
+| INDUCTOR     L?           (Sheet 30)
+| INDUCTOR     L?           (Sheet 31)
+| INDUCTOR     L?           (Sheet 32)
+| INDUCTOR     L?           (Sheet 33)
+| INDUCTOR     L?           (Sheet 34)
+| INDUCTOR     L?           (Sheet 35)
+| INJECT       P?           (Sheet 26)
+| INJECT       P?           (Sheet 27)
+| INJECT       P?           (Sheet 29)
+| INJECT       P?           (Sheet 30)
+| INJECT       P?           (Sheet 31)
+| INJECT       P?           (Sheet 32)
+| INJECT       P?           (Sheet 33)
+| INJECT       P?           (Sheet 34)
+| INJECT       P?           (Sheet 35)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LED          D?           (Sheet 01)
+| LM1815       U?           (Sheet 36)
+| LM1815       U?           (Sheet 37)
+| MOS_N        Q?           (Sheet 41)
+| MOS_N        Q?           (Sheet 42)
+| MOSFET_N     Q?           (Sheet 10)
+| MOSFET_N     Q?           (Sheet 11)
+| MOSFET_N     Q?           (Sheet 12)
+| MOSFET_N     Q?           (Sheet 13)
+| MOSFET_N     Q?           (Sheet 14)
+| MOSFET_N     Q?           (Sheet 15)
+| MPX4100A     U?           (Sheet 16)
+| MPX4100A     U?           (Sheet 16)
+| MPX4100A     U?           (Sheet 40)
+| MPX4100A     U?           (Sheet 40)
+| O2 CON       P?           (Sheet 25)
+| PIP3104      Q?           (Sheet 26)
+| PIP3104      Q?           (Sheet 27)
+| PIP3104      Q?           (Sheet 29)
+| PIP3104      Q?           (Sheet 30)
+| PIP3104      Q?           (Sheet 31)
+| PIP3104      Q?           (Sheet 32)
+| PIP3104      Q?           (Sheet 33)
+| PIP3104      Q?           (Sheet 34)
+| PIP3104      Q?           (Sheet 35)
+| snubber      D?           (Sheet 30)
+| snubber      D?           (Sheet 31)
+| snubber      D?           (Sheet 32)
+| snubber      D?           (Sheet 33)
+| snubber      D?           (Sheet 34)
+| snubber      D?           (Sheet 35)
+| snubber2     D?           (Sheet 30)
+| snubber2     D?           (Sheet 31)
+| snubber2     D?           (Sheet 32)
+| snubber2     D?           (Sheet 33)
+| snubber2     D?           (Sheet 34)
+| snubber2     D?           (Sheet 35)
+| SWITCH_INV   SW?          (Sheet 36)
+| SWITCH_INV   SW?          (Sheet 37)
+| therm        P?           (Sheet 41)
+| therm        P?           (Sheet 42)
+| TPS          K?           (Sheet 39)
+| VR con       P?           (Sheet 36)
+| VR con       P?           (Sheet 37)
+| Xk           R?           (Sheet 21)
+| Xk           R?           (Sheet 21)
+| Xk           R?           (Sheet 21)
+| Xk           R?           (Sheet 21)
+| Xk           R?           (Sheet 22)
+| Xk           R?           (Sheet 22)
+| Xk           R?           (Sheet 22)
+| Xk           R?           (Sheet 22)
+| Xk           R?           (Sheet 23)
+| Xk           R?           (Sheet 23)
+| Xk           R?           (Sheet 23)
+| Xk           R?           (Sheet 23)
+| Xk           R?           (Sheet 24)
+| Xk           R?           (Sheet 24)
+| Xk           R?           (Sheet 24)
+| Xk           R?           (Sheet 24)
+| ZENER 5V     D?           (Sheet 30)
+| ZENER 5V     D?           (Sheet 31)
+| ZENER 5V     D?           (Sheet 32)
+| ZENER 5V     D?           (Sheet 33)
+| ZENER 5V     D?           (Sheet 34)
+| ZENER 5V     D?           (Sheet 35)
+#End Cmp
+
+#Glob labels ( order = Sheet Number ) count = 551
+> 12v batt                     Sheet Output  (Sheet 01) pos: 2.700, 1.900
+> 12v batt                     Sheet Output  (Sheet 01) pos: 2.700, 1.250
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 9.650
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 9.250
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.850
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.450
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.050
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 7.650
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 9.650
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 9.200
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 8.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 3.700
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 3.200
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 2.700
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 2.250
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 1.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 1.250
+> 12v_power                    Sheet Output  (Sheet 01) pos: 15.400, 8.250
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 7.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 6.700
+> 5v reg                       Sheet Input   (Sheet 01) pos: 2.700, 2.000
+> 5v reg                       Sheet Input   (Sheet 01) pos: 2.700, 1.350
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.850
+> 5v_reg                       Sheet Output  (Sheet 01) pos: 15.400, 8.350
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 7.850
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.450
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.000
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 4.550
+> AN00                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.400
+> AN01                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.300
+> AN02                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.200
+> AN03                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.100
+> AN04                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.400
+> AN05                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.300
+> AN06                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.200
+> AN07                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.100
+> AN08                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.450
+> AN09                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.550
+> AN10                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.650
+> AN11                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.750
+> AN12                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.450
+> AN13                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.550
+> AN14                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.650
+> AN15                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.750
+> analog_O2                    Sheet Input   (Sheet 01) pos: 12.400, 7.000
+> analog_sensor_BAT            Sheet Output  (Sheet 01) pos: 12.400, 6.600
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 5.750
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 9.700, 3.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 9.700, 4.000
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 2.100, 3.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 2.100, 4.000
+> analog_sensor_gnd            Sheet Input   (Sheet 01) pos: 15.400, 7.000
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 6.600
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 6.150
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 5.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 4.900
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 4.450
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 7.000, 3.450
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 7.000, 4.100
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 4.800, 3.450
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 4.800, 4.100
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 7.000, 3.750
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 7.000, 4.400
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 4.800, 3.750
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 4.800, 4.400
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 7.000, 3.650
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 7.000, 4.300
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 4.800, 3.650
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 4.800, 4.300
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 7.000, 3.550
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 7.000, 4.200
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 4.800, 3.550
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 4.800, 4.200
+> analog_sensor_MAP            Sheet Output  (Sheet 01) pos: 12.400, 5.750
+> analog_sensor_MAP            Sheet Output  (Sheet 01) pos: 12.400, 5.350
+> analog_sensor_MAP_ambient    Sheet Output  (Sheet 01) pos: 12.400, 5.850
+> analog_sensor_MAP_ambient    Sheet Output  (Sheet 01) pos: 12.400, 5.450
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 9.700, 3.450
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 9.700, 4.100
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 2.100, 3.450
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 2.100, 4.100
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 9.700, 3.750
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 9.700, 4.400
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 2.100, 3.750
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 2.100, 4.400
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 9.700, 3.650
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 9.700, 4.300
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 2.100, 3.650
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 2.100, 4.300
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 9.700, 3.550
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 9.700, 4.200
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 2.100, 3.550
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 2.100, 4.200
+> analog_sensor_TEMP           Sheet Output  (Sheet 01) pos: 12.400, 4.900
+> analog_sensor_TEMP           Sheet Output  (Sheet 01) pos: 12.400, 4.450
+> analog_sensor_TPS            Sheet Output  (Sheet 01) pos: 12.400, 6.150
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 7.000, 3.350
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 7.000, 4.000
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 4.800, 3.350
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 4.800, 4.000
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 3.700
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 3.200
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 2.700
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 2.250
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 1.750
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 1.250
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.550
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.950
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.350
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.750
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.150
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.550
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 7.650
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.150
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.650
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.100
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.550
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 7.550
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 7.950
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 8.350
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 8.750
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 9.150
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 9.550
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 7.650
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 8.150
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 8.650
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 9.100
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 9.550
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 7.650
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.050
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.450
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.850
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 9.250
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 9.650
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 7.750
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 8.250
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 8.750
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 9.200
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 9.650
+> digi_sensor_gnd              Sheet BiDi    (Sheet 01) pos: 15.400, 8.150
+> digi_sensor_gnd              Sheet BiDi    (Sheet 01) pos: 15.400, 7.650
+> digi_sensor_RPM              Sheet Output  (Sheet 01) pos: 12.400, 8.150
+> digi_sensor_RPM              Sheet Output  (Sheet 01) pos: 12.400, 7.650
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.650
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.050
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.450
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.850
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.250
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.650
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 7.750
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.250
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.750
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.200
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.650
+> ECLK                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.800
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 9.550
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 9.100
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 8.650
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 9.550
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 9.100
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 8.650
+> gnd                          Sheet BiDi    (Sheet 01) pos: 2.700, 2.100
+> gnd                          Sheet BiDi    (Sheet 01) pos: 2.700, 1.450
+> GND                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.450
+> GND-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.400
+> GND-3                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.500
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 3.600
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 3.100
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 2.600
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 2.150
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 1.650
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 1.150
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 3.600
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 3.100
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 2.600
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 2.150
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 1.650
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 1.150
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 9.550
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 9.150
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 8.750
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 8.350
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 7.950
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 7.550
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 9.550
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 9.150
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 8.750
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 8.350
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 7.950
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 7.550
+> Measure_temp                 Sheet Input   (Sheet 01) pos: 12.400, 5.000
+> Measure_temp                 Sheet Input   (Sheet 01) pos: 12.400, 4.550
+> PA0                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.050
+> PA1                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.950
+> PA2                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.850
+> PA3                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.750
+> PA4                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.650
+> PA5                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.550
+> PA6                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.450
+> PA7                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.350
+> PB0                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.850
+> PB1                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.750
+> PB2                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.650
+> PB3                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.550
+> PB4                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.450
+> PB5                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.350
+> PB6                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.250
+> PB7                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.150
+> PE0                          Sheet BiDi    (Sheet 01) pos: 6.550, 6.000
+> PE1                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.250
+> PE1-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.100
+> PE2                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.950
+> PE3                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.150
+> PE4                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.050
+> PE7                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.550
+> PE7-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 5.800
+> PH0                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.700
+> PH1                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.600
+> PH2                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.500
+> PH3                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.400
+> PH4                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.300
+> PH5                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.200
+> PH6                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.100
+> PH7                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.000
+> PJ0                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.350
+> PJ1                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.350
+> PJ6                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.550
+> PJ7                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.450
+> PK0                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.250
+> PK1                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.150
+> PK2                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.050
+> PK3                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.950
+> PK4                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.850
+> PK5                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.750
+> PK7                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.650
+> PM0                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.350
+> PM1                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.250
+> PM2                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.150
+> PM3                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.050
+> PM4                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.950
+> PM5                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.850
+> PM6                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.750
+> PM7                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.650
+> PP0                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.500
+> PP1                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.600
+> PP2                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.700
+> PP3                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.800
+> PP4                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.900
+> PP5                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.000
+> PP6                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.100
+> PP7                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.200
+> PS0                          Sheet BiDi    (Sheet 01) pos: 6.550, 6.300
+> PS1                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.100
+> PS2                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.900
+> PS3                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.700
+> PS4                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.500
+> PS5                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.400
+> PS6                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.300
+> PS7                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.200
+> PT0                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.300
+> PT1                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.400
+> PT2                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.500
+> PT3                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.600
+> PT4                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.700
+> PT5                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.800
+> PT6                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.900
+> PT7                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.000
+> RESET                        Sheet BiDi    (Sheet 01) pos: 6.550, 5.900
+> VCC                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.350
+> VCC-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.200
+> VRH                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.500
+> VRL                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.600
+> 12v batt                     Global        (Sheet 02) pos: 7.600, 3.300
+> 5v reg                       Global        (Sheet 02) pos: 2.250, 3.300
+> gnd                          Global        (Sheet 02) pos: 2.250, 3.700
+> 12v batt                     Global        (Sheet 03) pos: 7.600, 3.300
+> 5v reg                       Global        (Sheet 03) pos: 2.250, 3.300
+> gnd                          Global        (Sheet 03) pos: 2.250, 3.700
+> digi_CPU                     Global        (Sheet 04) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 04) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 04) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 04) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 05) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 05) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 05) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 05) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 06) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 06) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 06) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 06) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 07) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 07) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 07) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 07) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 08) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 08) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 08) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 08) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 09) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 09) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 09) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 09) pos: 1.950, 1.350
+> 12V_bat                      Global        (Sheet 10) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 10) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 10) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 10) pos: 2.750, 2.400
+> 12V_bat                      Global        (Sheet 11) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 11) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 11) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 11) pos: 2.750, 2.400
+> 12V_bat                      Global        (Sheet 12) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 12) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 12) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 12) pos: 2.750, 2.400
+> 12V_bat                      Global        (Sheet 13) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 13) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 13) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 13) pos: 2.750, 2.400
+> 12V_bat                      Global        (Sheet 14) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 14) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 14) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 14) pos: 2.750, 2.400
+> 12V_bat                      Global        (Sheet 15) pos: 2.800, 1.700
+> 5V_reg                       Global        (Sheet 15) pos: 2.800, 1.200
+> low_power_inductive_drive    Global        (Sheet 15) pos: 2.800, 2.050
+> low_power_inductive_gnd      Global        (Sheet 15) pos: 2.750, 2.400
+> 5v reg                       Global        (Sheet 16) pos: 2.400, 1.200
+> analog_sensor_gnd            Global        (Sheet 16) pos: 2.400, 1.600
+> analog_sensor_MAP            Global        (Sheet 16) pos: 2.400, 2.000
+> analog_sensor_MAP_ambient    Global        (Sheet 16) pos: 2.400, 3.750
+> digi_CPU                     Global        (Sheet 17) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 17) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 17) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 17) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 18) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 18) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 18) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 18) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 19) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 19) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 19) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 19) pos: 1.950, 1.350
+> digi_CPU                     Global        (Sheet 20) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 20) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 20) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 20) pos: 1.950, 1.350
+> analog_sensor_gnd            Global        (Sheet 21) pos: 2.100, 1.800
+> analog_sensor_in_1           Global        (Sheet 21) pos: 2.100, 1.400
+> analog_sensor_in_2           Global        (Sheet 21) pos: 2.050, 2.750
+> analog_sensor_in_3           Global        (Sheet 21) pos: 2.000, 4.050
+> analog_sensor_in_4           Global        (Sheet 21) pos: 1.950, 5.450
+> analog_sensor_out_1          Global        (Sheet 21) pos: 4.650, 1.400
+> analog_sensor_out_2          Global        (Sheet 21) pos: 4.600, 2.750
+> analog_sensor_out_3          Global        (Sheet 21) pos: 4.550, 4.050
+> analog_sensor_out_4          Global        (Sheet 21) pos: 4.500, 5.450
+> analog_sensor_vcc            Global        (Sheet 21) pos: 2.750, 0.800
+> analog_sensor_gnd            Global        (Sheet 22) pos: 2.100, 1.800
+> analog_sensor_in_1           Global        (Sheet 22) pos: 2.100, 1.400
+> analog_sensor_in_2           Global        (Sheet 22) pos: 2.050, 2.750
+> analog_sensor_in_3           Global        (Sheet 22) pos: 2.000, 4.050
+> analog_sensor_in_4           Global        (Sheet 22) pos: 1.950, 5.450
+> analog_sensor_out_1          Global        (Sheet 22) pos: 4.650, 1.400
+> analog_sensor_out_2          Global        (Sheet 22) pos: 4.600, 2.750
+> analog_sensor_out_3          Global        (Sheet 22) pos: 4.550, 4.050
+> analog_sensor_out_4          Global        (Sheet 22) pos: 4.500, 5.450
+> analog_sensor_vcc            Global        (Sheet 22) pos: 2.750, 0.800
+> analog_sensor_gnd            Global        (Sheet 23) pos: 2.100, 1.800
+> analog_sensor_in_1           Global        (Sheet 23) pos: 2.100, 1.400
+> analog_sensor_in_2           Global        (Sheet 23) pos: 2.050, 2.750
+> analog_sensor_in_3           Global        (Sheet 23) pos: 2.000, 4.050
+> analog_sensor_in_4           Global        (Sheet 23) pos: 1.950, 5.450
+> analog_sensor_out_1          Global        (Sheet 23) pos: 4.650, 1.400
+> analog_sensor_out_2          Global        (Sheet 23) pos: 4.600, 2.750
+> analog_sensor_out_3          Global        (Sheet 23) pos: 4.550, 4.050
+> analog_sensor_out_4          Global        (Sheet 23) pos: 4.500, 5.450
+> analog_sensor_vcc            Global        (Sheet 23) pos: 2.750, 0.800
+> analog_sensor_gnd            Global        (Sheet 24) pos: 2.100, 1.800
+> analog_sensor_in_1           Global        (Sheet 24) pos: 2.100, 1.400
+> analog_sensor_in_2           Global        (Sheet 24) pos: 2.050, 2.750
+> analog_sensor_in_3           Global        (Sheet 24) pos: 2.000, 4.050
+> analog_sensor_in_4           Global        (Sheet 24) pos: 1.950, 5.450
+> analog_sensor_out_1          Global        (Sheet 24) pos: 4.650, 1.400
+> analog_sensor_out_2          Global        (Sheet 24) pos: 4.600, 2.750
+> analog_sensor_out_3          Global        (Sheet 24) pos: 4.550, 4.050
+> analog_sensor_out_4          Global        (Sheet 24) pos: 4.500, 5.450
+> analog_sensor_vcc            Global        (Sheet 24) pos: 2.750, 0.800
+> analog_O2                    Global        (Sheet 25) pos: 2.600, 2.300
+> analog_sensor_gnd            Global        (Sheet 25) pos: 2.600, 2.500
+> 12v_power                    Global        (Sheet 26) pos: 2.250, 1.100
+> fet_power_drive              Global        (Sheet 26) pos: 2.250, 1.500
+> fet_power_gnd                Global        (Sheet 26) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 27) pos: 2.250, 1.100
+> fet_power_drive              Global        (Sheet 27) pos: 2.250, 1.500
+> fet_power_gnd                Global        (Sheet 27) pos: 2.250, 2.000
+> digi_CPU                     Global        (Sheet 28) pos: 1.950, 1.750
+> digi_device                  Global        (Sheet 28) pos: 4.550, 1.750
+> digi_gnd                     Global        (Sheet 28) pos: 1.950, 2.150
+> digi_vcc                     Global        (Sheet 28) pos: 1.950, 1.350
+> 12v_power                    Global        (Sheet 29) pos: 2.250, 1.100
+> fet_power_drive              Global        (Sheet 29) pos: 2.250, 1.500
+> fet_power_gnd                Global        (Sheet 29) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 30) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 30) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 30) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 30) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 31) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 31) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 31) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 31) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 32) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 32) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 32) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 32) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 33) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 33) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 33) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 33) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 34) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 34) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 34) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 34) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 35) pos: 2.250, 3.000
+> current_sense                Global        (Sheet 35) pos: 2.250, 2.500
+> inductive_power_drive        Global        (Sheet 35) pos: 2.250, 1.500
+> inductive_power_gnd          Global        (Sheet 35) pos: 2.250, 2.000
+> 12v_power                    Global        (Sheet 36) pos: 1.650, 0.750
+> 5v_reg                       Global        (Sheet 36) pos: 1.650, 1.600
+> digi_sensor_gnd              Global        (Sheet 36) pos: 1.650, 1.350
+> digi_sensor_RPM              Global        (Sheet 36) pos: 1.650, 1.050
+> 12v_power                    Global        (Sheet 37) pos: 1.650, 0.750
+> 5v_reg                       Global        (Sheet 37) pos: 1.650, 1.600
+> digi_sensor_gnd              Global        (Sheet 37) pos: 1.650, 1.350
+> digi_sensor_RPM              Global        (Sheet 37) pos: 1.650, 1.050
+> 12v_power                    Global        (Sheet 38) pos: 2.250, 1.800
+> analog_sensor_BAT            Global        (Sheet 38) pos: 2.250, 2.300
+> analog_sensor_gnd            Global        (Sheet 38) pos: 2.250, 2.800
+> 5v_ref                       Global        (Sheet 39) pos: 3.250, 1.700
+> analog_sensor_gnd            Global        (Sheet 39) pos: 3.250, 2.200
+> analog_sensor_TPS            Global        (Sheet 39) pos: 3.250, 1.950
+> 5v reg                       Global        (Sheet 40) pos: 2.400, 1.200
+> analog_sensor_gnd            Global        (Sheet 40) pos: 2.400, 1.600
+> analog_sensor_MAP            Global        (Sheet 40) pos: 2.400, 2.000
+> analog_sensor_MAP_ambient    Global        (Sheet 40) pos: 2.400, 3.750
+> 5v_reg                       Global        (Sheet 41) pos: 2.700, 0.950
+> analog_sensor_gnd            Global        (Sheet 41) pos: 2.650, 2.350
+> analog_sensor_TEMP           Global        (Sheet 41) pos: 2.700, 1.450
+> Measure_temp                 Global        (Sheet 41) pos: 2.650, 2.150
+> 5v_reg                       Global        (Sheet 42) pos: 2.700, 0.950
+> analog_sensor_gnd            Global        (Sheet 42) pos: 2.650, 2.350
+> analog_sensor_TEMP           Global        (Sheet 42) pos: 2.700, 1.450
+> Measure_temp                 Global        (Sheet 42) pos: 2.650, 2.150
+> AN00                         Global        (Sheet 43) pos: 5.700, 2.900
+> AN01                         Global        (Sheet 43) pos: 5.700, 2.800
+> AN02                         Global        (Sheet 43) pos: 5.700, 2.700
+> AN03                         Global        (Sheet 43) pos: 5.700, 2.600
+> AN04                         Global        (Sheet 43) pos: 6.500, 2.900
+> AN05                         Global        (Sheet 43) pos: 6.500, 2.800
+> AN06                         Global        (Sheet 43) pos: 6.500, 2.700
+> AN07                         Global        (Sheet 43) pos: 6.500, 2.600
+> AN08                         Global        (Sheet 43) pos: 3.700, 4.700
+> AN09                         Global        (Sheet 43) pos: 3.700, 4.800
+> AN10                         Global        (Sheet 43) pos: 3.700, 4.900
+> AN11                         Global        (Sheet 43) pos: 3.700, 5.000
+> AN12                         Global        (Sheet 43) pos: 2.900, 4.700
+> AN13                         Global        (Sheet 43) pos: 2.900, 4.800
+> AN14                         Global        (Sheet 43) pos: 2.900, 4.900
+> AN15                         Global        (Sheet 43) pos: 2.900, 5.000
+> ECLK                         Global        (Sheet 43) pos: 6.500, 3.300
+> GND                          Global        (Sheet 43) pos: 2.900, 2.700
+> GND-2                        Global        (Sheet 43) pos: 6.500, 4.900
+> GND-3                        Global        (Sheet 43) pos: 6.500, 5.000
+> PA0                          Global        (Sheet 43) pos: 3.700, 3.300
+> PA1                          Global        (Sheet 43) pos: 3.700, 3.200
+> PA2                          Global        (Sheet 43) pos: 3.700, 3.100
+> PA3                          Global        (Sheet 43) pos: 3.700, 3.000
+> PA4                          Global        (Sheet 43) pos: 3.700, 2.900
+> PA5                          Global        (Sheet 43) pos: 3.700, 2.800
+> PA6                          Global        (Sheet 43) pos: 3.700, 2.700
+> PA7                          Global        (Sheet 43) pos: 3.700, 2.600
+> PB0                          Global        (Sheet 43) pos: 3.700, 4.100
+> PB1                          Global        (Sheet 43) pos: 3.700, 4.000
+> PB2                          Global        (Sheet 43) pos: 3.700, 3.900
+> PB3                          Global        (Sheet 43) pos: 3.700, 3.800
+> PB4                          Global        (Sheet 43) pos: 3.700, 3.700
+> PB5                          Global        (Sheet 43) pos: 3.700, 3.600
+> PB6                          Global        (Sheet 43) pos: 3.700, 3.500
+> PB7                          Global        (Sheet 43) pos: 3.700, 3.400
+> PE0                          Global        (Sheet 43) pos: 6.500, 4.500
+> PE1                          Global        (Sheet 43) pos: 3.700, 4.500
+> PE1-2                        Global        (Sheet 43) pos: 6.500, 4.600
+> PE2                          Global        (Sheet 43) pos: 3.700, 4.200
+> PE3                          Global        (Sheet 43) pos: 3.700, 4.400
+> PE4                          Global        (Sheet 43) pos: 3.700, 4.300
+> PE7                          Global        (Sheet 43) pos: 2.900, 2.800
+> PE7-2                        Global        (Sheet 43) pos: 6.500, 4.300
+> PH0                          Global        (Sheet 43) pos: 6.500, 4.200
+> PH1                          Global        (Sheet 43) pos: 6.500, 4.100
+> PH2                          Global        (Sheet 43) pos: 6.500, 4.000
+> PH3                          Global        (Sheet 43) pos: 6.500, 3.900
+> PH4                          Global        (Sheet 43) pos: 6.500, 3.800
+> PH5                          Global        (Sheet 43) pos: 6.500, 3.700
+> PH6                          Global        (Sheet 43) pos: 6.500, 3.600
+> PH7                          Global        (Sheet 43) pos: 6.500, 3.500
+> PJ0                          Global        (Sheet 43) pos: 2.900, 3.600
+> PJ1                          Global        (Sheet 43) pos: 3.700, 4.600
+> PJ6                          Global        (Sheet 43) pos: 2.900, 3.800
+> PJ7                          Global        (Sheet 43) pos: 2.900, 3.700
+> PK0                          Global        (Sheet 43) pos: 2.900, 3.500
+> PK1                          Global        (Sheet 43) pos: 2.900, 3.400
+> PK2                          Global        (Sheet 43) pos: 2.900, 3.300
+> PK3                          Global        (Sheet 43) pos: 2.900, 3.200
+> PK4                          Global        (Sheet 43) pos: 2.900, 3.100
+> PK5                          Global        (Sheet 43) pos: 2.900, 3.000
+> PK7                          Global        (Sheet 43) pos: 2.900, 2.900
+> PM0                          Global        (Sheet 43) pos: 2.900, 4.600
+> PM1                          Global        (Sheet 43) pos: 2.900, 4.500
+> PM2                          Global        (Sheet 43) pos: 2.900, 4.400
+> PM3                          Global        (Sheet 43) pos: 2.900, 4.300
+> PM4                          Global        (Sheet 43) pos: 2.900, 4.200
+> PM5                          Global        (Sheet 43) pos: 2.900, 4.100
+> PM6                          Global        (Sheet 43) pos: 2.900, 4.000
+> PM7                          Global        (Sheet 43) pos: 2.900, 3.900
+> PP0                          Global        (Sheet 43) pos: 5.700, 3.000
+> PP1                          Global        (Sheet 43) pos: 5.700, 3.100
+> PP2                          Global        (Sheet 43) pos: 5.700, 3.200
+> PP3                          Global        (Sheet 43) pos: 5.700, 3.300
+> PP4                          Global        (Sheet 43) pos: 5.700, 3.400
+> PP5                          Global        (Sheet 43) pos: 5.700, 3.500
+> PP6                          Global        (Sheet 43) pos: 5.700, 3.600
+> PP7                          Global        (Sheet 43) pos: 5.700, 3.700
+> PS0                          Global        (Sheet 43) pos: 6.500, 4.800
+> PS1                          Global        (Sheet 43) pos: 5.700, 4.600
+> PS2                          Global        (Sheet 43) pos: 6.500, 3.400
+> PS3                          Global        (Sheet 43) pos: 6.500, 3.200
+> PS4                          Global        (Sheet 43) pos: 5.700, 5.000
+> PS5                          Global        (Sheet 43) pos: 5.700, 4.900
+> PS6                          Global        (Sheet 43) pos: 5.700, 4.800
+> PS7                          Global        (Sheet 43) pos: 5.700, 4.700
+> PT0                          Global        (Sheet 43) pos: 5.700, 3.800
+> PT1                          Global        (Sheet 43) pos: 5.700, 3.900
+> PT2                          Global        (Sheet 43) pos: 5.700, 4.000
+> PT3                          Global        (Sheet 43) pos: 5.700, 4.100
+> PT4                          Global        (Sheet 43) pos: 5.700, 4.200
+> PT5                          Global        (Sheet 43) pos: 5.700, 4.300
+> PT6                          Global        (Sheet 43) pos: 5.700, 4.400
+> PT7                          Global        (Sheet 43) pos: 5.700, 4.500
+> RESET                        Global        (Sheet 43) pos: 6.500, 4.400
+> VCC                          Global        (Sheet 43) pos: 2.900, 2.600
+> VCC-2                        Global        (Sheet 43) pos: 6.500, 4.700
+> VRH                          Global        (Sheet 43) pos: 6.500, 3.000
+> VRL                          Global        (Sheet 43) pos: 6.500, 3.100
+#End labels
+
+#Glob labels ( order = Alphab. ) count = 551
+
+> 12v batt                     Sheet Output  (Sheet 01) pos: 2.700, 1.900
+> 12v batt                     Sheet Output  (Sheet 01) pos: 2.700, 1.250
+> 12v batt                     Global        (Sheet 02) pos: 7.600, 3.300
+> 12v batt                     Global        (Sheet 03) pos: 7.600, 3.300
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 9.650
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 9.250
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.850
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.450
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 8.050
+> 12V_bat                      Sheet Input   (Sheet 01) pos: 7.950, 7.650
+> 12V_bat                      Global        (Sheet 10) pos: 2.800, 1.700
+> 12V_bat                      Global        (Sheet 11) pos: 2.800, 1.700
+> 12V_bat                      Global        (Sheet 12) pos: 2.800, 1.700
+> 12V_bat                      Global        (Sheet 13) pos: 2.800, 1.700
+> 12V_bat                      Global        (Sheet 14) pos: 2.800, 1.700
+> 12V_bat                      Global        (Sheet 15) pos: 2.800, 1.700
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 9.650
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 9.200
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.350, 8.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 3.700
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 3.200
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 2.700
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 2.250
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 1.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 1.250
+> 12v_power                    Sheet Output  (Sheet 01) pos: 15.400, 8.250
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 7.750
+> 12v_power                    Sheet Input   (Sheet 01) pos: 15.400, 6.700
+> 12v_power                    Global        (Sheet 26) pos: 2.250, 1.100
+> 12v_power                    Global        (Sheet 27) pos: 2.250, 1.100
+> 12v_power                    Global        (Sheet 29) pos: 2.250, 1.100
+> 12v_power                    Global        (Sheet 30) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 31) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 32) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 33) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 34) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 35) pos: 2.250, 3.000
+> 12v_power                    Global        (Sheet 36) pos: 1.650, 0.750
+> 12v_power                    Global        (Sheet 37) pos: 1.650, 0.750
+> 12v_power                    Global        (Sheet 38) pos: 2.250, 1.800
+> 5v reg                       Sheet Input   (Sheet 01) pos: 2.700, 2.000
+> 5v reg                       Sheet Input   (Sheet 01) pos: 2.700, 1.350
+> 5v reg                       Global        (Sheet 02) pos: 2.250, 3.300
+> 5v reg                       Global        (Sheet 03) pos: 2.250, 3.300
+> 5v reg                       Global        (Sheet 16) pos: 2.400, 1.200
+> 5v reg                       Global        (Sheet 40) pos: 2.400, 1.200
+> 5v_ref                       Global        (Sheet 39) pos: 3.250, 1.700
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.850
+> 5v_reg                       Sheet Output  (Sheet 01) pos: 15.400, 8.350
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 7.850
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.450
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 5.000
+> 5v_reg                       Sheet Input   (Sheet 01) pos: 15.400, 4.550
+> 5V_reg                       Global        (Sheet 10) pos: 2.800, 1.200
+> 5V_reg                       Global        (Sheet 11) pos: 2.800, 1.200
+> 5V_reg                       Global        (Sheet 12) pos: 2.800, 1.200
+> 5V_reg                       Global        (Sheet 13) pos: 2.800, 1.200
+> 5V_reg                       Global        (Sheet 14) pos: 2.800, 1.200
+> 5V_reg                       Global        (Sheet 15) pos: 2.800, 1.200
+> 5v_reg                       Global        (Sheet 36) pos: 1.650, 1.600
+> 5v_reg                       Global        (Sheet 37) pos: 1.650, 1.600
+> 5v_reg                       Global        (Sheet 41) pos: 2.700, 0.950
+> 5v_reg                       Global        (Sheet 42) pos: 2.700, 0.950
+> AN00                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.400
+> AN00                         Global        (Sheet 43) pos: 5.700, 2.900
+> AN01                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.300
+> AN01                         Global        (Sheet 43) pos: 5.700, 2.800
+> AN02                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.200
+> AN02                         Global        (Sheet 43) pos: 5.700, 2.700
+> AN03                         Sheet BiDi    (Sheet 01) pos: 5.200, 4.100
+> AN03                         Global        (Sheet 43) pos: 5.700, 2.600
+> AN04                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.400
+> AN04                         Global        (Sheet 43) pos: 6.500, 2.900
+> AN05                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.300
+> AN05                         Global        (Sheet 43) pos: 6.500, 2.800
+> AN06                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.200
+> AN06                         Global        (Sheet 43) pos: 6.500, 2.700
+> AN07                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.100
+> AN07                         Global        (Sheet 43) pos: 6.500, 2.600
+> AN08                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.450
+> AN08                         Global        (Sheet 43) pos: 3.700, 4.700
+> AN09                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.550
+> AN09                         Global        (Sheet 43) pos: 3.700, 4.800
+> AN10                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.650
+> AN10                         Global        (Sheet 43) pos: 3.700, 4.900
+> AN11                         Sheet BiDi    (Sheet 01) pos: 6.550, 3.750
+> AN11                         Global        (Sheet 43) pos: 3.700, 5.000
+> AN12                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.450
+> AN12                         Global        (Sheet 43) pos: 2.900, 4.700
+> AN13                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.550
+> AN13                         Global        (Sheet 43) pos: 2.900, 4.800
+> AN14                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.650
+> AN14                         Global        (Sheet 43) pos: 2.900, 4.900
+> AN15                         Sheet BiDi    (Sheet 01) pos: 5.200, 3.750
+> AN15                         Global        (Sheet 43) pos: 2.900, 5.000
+> analog_O2                    Sheet Input   (Sheet 01) pos: 12.400, 7.000
+> analog_O2                    Global        (Sheet 25) pos: 2.600, 2.300
+> analog_sensor_BAT            Sheet Output  (Sheet 01) pos: 12.400, 6.600
+> analog_sensor_BAT            Global        (Sheet 38) pos: 2.250, 2.300
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 5.750
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 9.700, 3.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 9.700, 4.000
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 2.100, 3.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 2.100, 4.000
+> analog_sensor_gnd            Sheet Input   (Sheet 01) pos: 15.400, 7.000
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 6.600
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 6.150
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 5.350
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 4.900
+> analog_sensor_gnd            Sheet BiDi    (Sheet 01) pos: 15.400, 4.450
+> analog_sensor_gnd            Global        (Sheet 16) pos: 2.400, 1.600
+> analog_sensor_gnd            Global        (Sheet 21) pos: 2.100, 1.800
+> analog_sensor_gnd            Global        (Sheet 22) pos: 2.100, 1.800
+> analog_sensor_gnd            Global        (Sheet 23) pos: 2.100, 1.800
+> analog_sensor_gnd            Global        (Sheet 24) pos: 2.100, 1.800
+> analog_sensor_gnd            Global        (Sheet 25) pos: 2.600, 2.500
+> analog_sensor_gnd            Global        (Sheet 38) pos: 2.250, 2.800
+> analog_sensor_gnd            Global        (Sheet 39) pos: 3.250, 2.200
+> analog_sensor_gnd            Global        (Sheet 40) pos: 2.400, 1.600
+> analog_sensor_gnd            Global        (Sheet 41) pos: 2.650, 2.350
+> analog_sensor_gnd            Global        (Sheet 42) pos: 2.650, 2.350
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 7.000, 3.450
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 7.000, 4.100
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 4.800, 3.450
+> analog_sensor_in_1           Sheet Input   (Sheet 01) pos: 4.800, 4.100
+> analog_sensor_in_1           Global        (Sheet 21) pos: 2.100, 1.400
+> analog_sensor_in_1           Global        (Sheet 22) pos: 2.100, 1.400
+> analog_sensor_in_1           Global        (Sheet 23) pos: 2.100, 1.400
+> analog_sensor_in_1           Global        (Sheet 24) pos: 2.100, 1.400
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 7.000, 3.750
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 7.000, 4.400
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 4.800, 3.750
+> analog_sensor_in_2           Sheet Input   (Sheet 01) pos: 4.800, 4.400
+> analog_sensor_in_2           Global        (Sheet 21) pos: 2.050, 2.750
+> analog_sensor_in_2           Global        (Sheet 22) pos: 2.050, 2.750
+> analog_sensor_in_2           Global        (Sheet 23) pos: 2.050, 2.750
+> analog_sensor_in_2           Global        (Sheet 24) pos: 2.050, 2.750
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 7.000, 3.650
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 7.000, 4.300
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 4.800, 3.650
+> analog_sensor_in_3           Sheet Input   (Sheet 01) pos: 4.800, 4.300
+> analog_sensor_in_3           Global        (Sheet 21) pos: 2.000, 4.050
+> analog_sensor_in_3           Global        (Sheet 22) pos: 2.000, 4.050
+> analog_sensor_in_3           Global        (Sheet 23) pos: 2.000, 4.050
+> analog_sensor_in_3           Global        (Sheet 24) pos: 2.000, 4.050
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 7.000, 3.550
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 7.000, 4.200
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 4.800, 3.550
+> analog_sensor_in_4           Sheet Input   (Sheet 01) pos: 4.800, 4.200
+> analog_sensor_in_4           Global        (Sheet 21) pos: 1.950, 5.450
+> analog_sensor_in_4           Global        (Sheet 22) pos: 1.950, 5.450
+> analog_sensor_in_4           Global        (Sheet 23) pos: 1.950, 5.450
+> analog_sensor_in_4           Global        (Sheet 24) pos: 1.950, 5.450
+> analog_sensor_MAP            Sheet Output  (Sheet 01) pos: 12.400, 5.750
+> analog_sensor_MAP            Sheet Output  (Sheet 01) pos: 12.400, 5.350
+> analog_sensor_MAP            Global        (Sheet 16) pos: 2.400, 2.000
+> analog_sensor_MAP            Global        (Sheet 40) pos: 2.400, 2.000
+> analog_sensor_MAP_ambient    Sheet Output  (Sheet 01) pos: 12.400, 5.850
+> analog_sensor_MAP_ambient    Sheet Output  (Sheet 01) pos: 12.400, 5.450
+> analog_sensor_MAP_ambient    Global        (Sheet 16) pos: 2.400, 3.750
+> analog_sensor_MAP_ambient    Global        (Sheet 40) pos: 2.400, 3.750
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 9.700, 3.450
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 9.700, 4.100
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 2.100, 3.450
+> analog_sensor_out_1          Sheet Output  (Sheet 01) pos: 2.100, 4.100
+> analog_sensor_out_1          Global        (Sheet 21) pos: 4.650, 1.400
+> analog_sensor_out_1          Global        (Sheet 22) pos: 4.650, 1.400
+> analog_sensor_out_1          Global        (Sheet 23) pos: 4.650, 1.400
+> analog_sensor_out_1          Global        (Sheet 24) pos: 4.650, 1.400
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 9.700, 3.750
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 9.700, 4.400
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 2.100, 3.750
+> analog_sensor_out_2          Sheet Output  (Sheet 01) pos: 2.100, 4.400
+> analog_sensor_out_2          Global        (Sheet 21) pos: 4.600, 2.750
+> analog_sensor_out_2          Global        (Sheet 22) pos: 4.600, 2.750
+> analog_sensor_out_2          Global        (Sheet 23) pos: 4.600, 2.750
+> analog_sensor_out_2          Global        (Sheet 24) pos: 4.600, 2.750
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 9.700, 3.650
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 9.700, 4.300
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 2.100, 3.650
+> analog_sensor_out_3          Sheet Output  (Sheet 01) pos: 2.100, 4.300
+> analog_sensor_out_3          Global        (Sheet 21) pos: 4.550, 4.050
+> analog_sensor_out_3          Global        (Sheet 22) pos: 4.550, 4.050
+> analog_sensor_out_3          Global        (Sheet 23) pos: 4.550, 4.050
+> analog_sensor_out_3          Global        (Sheet 24) pos: 4.550, 4.050
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 9.700, 3.550
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 9.700, 4.200
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 2.100, 3.550
+> analog_sensor_out_4          Sheet Output  (Sheet 01) pos: 2.100, 4.200
+> analog_sensor_out_4          Global        (Sheet 21) pos: 4.500, 5.450
+> analog_sensor_out_4          Global        (Sheet 22) pos: 4.500, 5.450
+> analog_sensor_out_4          Global        (Sheet 23) pos: 4.500, 5.450
+> analog_sensor_out_4          Global        (Sheet 24) pos: 4.500, 5.450
+> analog_sensor_TEMP           Sheet Output  (Sheet 01) pos: 12.400, 4.900
+> analog_sensor_TEMP           Sheet Output  (Sheet 01) pos: 12.400, 4.450
+> analog_sensor_TEMP           Global        (Sheet 41) pos: 2.700, 1.450
+> analog_sensor_TEMP           Global        (Sheet 42) pos: 2.700, 1.450
+> analog_sensor_TPS            Sheet Output  (Sheet 01) pos: 12.400, 6.150
+> analog_sensor_TPS            Global        (Sheet 39) pos: 3.250, 1.950
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 7.000, 3.350
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 7.000, 4.000
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 4.800, 3.350
+> analog_sensor_vcc            Sheet Output  (Sheet 01) pos: 4.800, 4.000
+> analog_sensor_vcc            Global        (Sheet 21) pos: 2.750, 0.800
+> analog_sensor_vcc            Global        (Sheet 22) pos: 2.750, 0.800
+> analog_sensor_vcc            Global        (Sheet 23) pos: 2.750, 0.800
+> analog_sensor_vcc            Global        (Sheet 24) pos: 2.750, 0.800
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 3.700
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 3.200
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 2.700
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 2.250
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 1.750
+> current_sense                Sheet Output  (Sheet 01) pos: 12.450, 1.250
+> current_sense                Global        (Sheet 30) pos: 2.250, 2.500
+> current_sense                Global        (Sheet 31) pos: 2.250, 2.500
+> current_sense                Global        (Sheet 32) pos: 2.250, 2.500
+> current_sense                Global        (Sheet 33) pos: 2.250, 2.500
+> current_sense                Global        (Sheet 34) pos: 2.250, 2.500
+> current_sense                Global        (Sheet 35) pos: 2.250, 2.500
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.550
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.950
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.350
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.750
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.150
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.550
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 7.650
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.150
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.650
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.100
+> digi_CPU                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.550
+> digi_CPU                     Global        (Sheet 04) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 05) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 06) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 07) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 08) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 09) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 17) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 18) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 19) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 20) pos: 1.950, 1.750
+> digi_CPU                     Global        (Sheet 28) pos: 1.950, 1.750
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 7.550
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 7.950
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 8.350
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 8.750
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 9.150
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 4.150, 9.550
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 7.650
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 8.150
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 8.650
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 9.100
+> digi_device                  Sheet BiDi    (Sheet 01) pos: 11.950, 9.550
+> digi_device                  Global        (Sheet 04) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 05) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 06) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 07) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 08) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 09) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 17) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 18) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 19) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 20) pos: 4.550, 1.750
+> digi_device                  Global        (Sheet 28) pos: 4.550, 1.750
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 7.650
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.050
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.450
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 8.850
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 9.250
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 4.150, 9.650
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 7.750
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 8.250
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 8.750
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 9.200
+> digi_gnd                     Sheet BiDi    (Sheet 01) pos: 11.950, 9.650
+> digi_gnd                     Global        (Sheet 04) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 05) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 06) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 07) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 08) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 09) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 17) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 18) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 19) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 20) pos: 1.950, 2.150
+> digi_gnd                     Global        (Sheet 28) pos: 1.950, 2.150
+> digi_sensor_gnd              Sheet BiDi    (Sheet 01) pos: 15.400, 8.150
+> digi_sensor_gnd              Sheet BiDi    (Sheet 01) pos: 15.400, 7.650
+> digi_sensor_gnd              Global        (Sheet 36) pos: 1.650, 1.350
+> digi_sensor_gnd              Global        (Sheet 37) pos: 1.650, 1.350
+> digi_sensor_RPM              Sheet Output  (Sheet 01) pos: 12.400, 8.150
+> digi_sensor_RPM              Sheet Output  (Sheet 01) pos: 12.400, 7.650
+> digi_sensor_RPM              Global        (Sheet 36) pos: 1.650, 1.050
+> digi_sensor_RPM              Global        (Sheet 37) pos: 1.650, 1.050
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 7.650
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.050
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.450
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 8.850
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.250
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 2.450, 9.650
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 7.750
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.250
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 8.750
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.200
+> digi_vcc                     Sheet BiDi    (Sheet 01) pos: 10.300, 9.650
+> digi_vcc                     Global        (Sheet 04) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 05) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 06) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 07) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 08) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 09) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 17) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 18) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 19) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 20) pos: 1.950, 1.350
+> digi_vcc                     Global        (Sheet 28) pos: 1.950, 1.350
+> ECLK                         Sheet BiDi    (Sheet 01) pos: 6.550, 4.800
+> ECLK                         Global        (Sheet 43) pos: 6.500, 3.300
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 9.550
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 9.100
+> fet_power_drive              Sheet Input   (Sheet 01) pos: 12.400, 8.650
+> fet_power_drive              Global        (Sheet 26) pos: 2.250, 1.500
+> fet_power_drive              Global        (Sheet 27) pos: 2.250, 1.500
+> fet_power_drive              Global        (Sheet 29) pos: 2.250, 1.500
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 9.550
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 9.100
+> fet_power_gnd                Sheet BiDi    (Sheet 01) pos: 15.350, 8.650
+> fet_power_gnd                Global        (Sheet 26) pos: 2.250, 2.000
+> fet_power_gnd                Global        (Sheet 27) pos: 2.250, 2.000
+> fet_power_gnd                Global        (Sheet 29) pos: 2.250, 2.000
+> gnd                          Sheet BiDi    (Sheet 01) pos: 2.700, 2.100
+> gnd                          Sheet BiDi    (Sheet 01) pos: 2.700, 1.450
+> GND                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.450
+> gnd                          Global        (Sheet 02) pos: 2.250, 3.700
+> gnd                          Global        (Sheet 03) pos: 2.250, 3.700
+> GND                          Global        (Sheet 43) pos: 2.900, 2.700
+> GND-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.400
+> GND-2                        Global        (Sheet 43) pos: 6.500, 4.900
+> GND-3                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.500
+> GND-3                        Global        (Sheet 43) pos: 6.500, 5.000
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 3.600
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 3.100
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 2.600
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 2.150
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 1.650
+> inductive_power_drive        Sheet Input   (Sheet 01) pos: 12.450, 1.150
+> inductive_power_drive        Global        (Sheet 30) pos: 2.250, 1.500
+> inductive_power_drive        Global        (Sheet 31) pos: 2.250, 1.500
+> inductive_power_drive        Global        (Sheet 32) pos: 2.250, 1.500
+> inductive_power_drive        Global        (Sheet 33) pos: 2.250, 1.500
+> inductive_power_drive        Global        (Sheet 34) pos: 2.250, 1.500
+> inductive_power_drive        Global        (Sheet 35) pos: 2.250, 1.500
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 3.600
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 3.100
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 2.600
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 2.150
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 1.650
+> inductive_power_gnd          Sheet BiDi    (Sheet 01) pos: 15.400, 1.150
+> inductive_power_gnd          Global        (Sheet 30) pos: 2.250, 2.000
+> inductive_power_gnd          Global        (Sheet 31) pos: 2.250, 2.000
+> inductive_power_gnd          Global        (Sheet 32) pos: 2.250, 2.000
+> inductive_power_gnd          Global        (Sheet 33) pos: 2.250, 2.000
+> inductive_power_gnd          Global        (Sheet 34) pos: 2.250, 2.000
+> inductive_power_gnd          Global        (Sheet 35) pos: 2.250, 2.000
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 9.550
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 9.150
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 8.750
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 8.350
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 7.950
+> low_power_inductive_drive    Sheet Input   (Sheet 01) pos: 4.400, 7.550
+> low_power_inductive_drive    Global        (Sheet 10) pos: 2.800, 2.050
+> low_power_inductive_drive    Global        (Sheet 11) pos: 2.800, 2.050
+> low_power_inductive_drive    Global        (Sheet 12) pos: 2.800, 2.050
+> low_power_inductive_drive    Global        (Sheet 13) pos: 2.800, 2.050
+> low_power_inductive_drive    Global        (Sheet 14) pos: 2.800, 2.050
+> low_power_inductive_drive    Global        (Sheet 15) pos: 2.800, 2.050
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 9.550
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 9.150
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 8.750
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 8.350
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 7.950
+> low_power_inductive_gnd      Sheet BiDi    (Sheet 01) pos: 7.950, 7.550
+> low_power_inductive_gnd      Global        (Sheet 10) pos: 2.750, 2.400
+> low_power_inductive_gnd      Global        (Sheet 11) pos: 2.750, 2.400
+> low_power_inductive_gnd      Global        (Sheet 12) pos: 2.750, 2.400
+> low_power_inductive_gnd      Global        (Sheet 13) pos: 2.750, 2.400
+> low_power_inductive_gnd      Global        (Sheet 14) pos: 2.750, 2.400
+> low_power_inductive_gnd      Global        (Sheet 15) pos: 2.750, 2.400
+> Measure_temp                 Sheet Input   (Sheet 01) pos: 12.400, 5.000
+> Measure_temp                 Sheet Input   (Sheet 01) pos: 12.400, 4.550
+> Measure_temp                 Global        (Sheet 41) pos: 2.650, 2.150
+> Measure_temp                 Global        (Sheet 42) pos: 2.650, 2.150
+> PA0                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.050
+> PA0                          Global        (Sheet 43) pos: 3.700, 3.300
+> PA1                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.950
+> PA1                          Global        (Sheet 43) pos: 3.700, 3.200
+> PA2                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.850
+> PA2                          Global        (Sheet 43) pos: 3.700, 3.100
+> PA3                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.750
+> PA3                          Global        (Sheet 43) pos: 3.700, 3.000
+> PA4                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.650
+> PA4                          Global        (Sheet 43) pos: 3.700, 2.900
+> PA5                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.550
+> PA5                          Global        (Sheet 43) pos: 3.700, 2.800
+> PA6                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.450
+> PA6                          Global        (Sheet 43) pos: 3.700, 2.700
+> PA7                          Sheet BiDi    (Sheet 01) pos: 6.550, 1.350
+> PA7                          Global        (Sheet 43) pos: 3.700, 2.600
+> PB0                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.850
+> PB0                          Global        (Sheet 43) pos: 3.700, 4.100
+> PB1                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.750
+> PB1                          Global        (Sheet 43) pos: 3.700, 4.000
+> PB2                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.650
+> PB2                          Global        (Sheet 43) pos: 3.700, 3.900
+> PB3                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.550
+> PB3                          Global        (Sheet 43) pos: 3.700, 3.800
+> PB4                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.450
+> PB4                          Global        (Sheet 43) pos: 3.700, 3.700
+> PB5                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.350
+> PB5                          Global        (Sheet 43) pos: 3.700, 3.600
+> PB6                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.250
+> PB6                          Global        (Sheet 43) pos: 3.700, 3.500
+> PB7                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.150
+> PB7                          Global        (Sheet 43) pos: 3.700, 3.400
+> PE0                          Sheet BiDi    (Sheet 01) pos: 6.550, 6.000
+> PE0                          Global        (Sheet 43) pos: 6.500, 4.500
+> PE1                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.250
+> PE1                          Global        (Sheet 43) pos: 3.700, 4.500
+> PE1-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.100
+> PE1-2                        Global        (Sheet 43) pos: 6.500, 4.600
+> PE2                          Sheet BiDi    (Sheet 01) pos: 6.550, 2.950
+> PE2                          Global        (Sheet 43) pos: 3.700, 4.200
+> PE3                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.150
+> PE3                          Global        (Sheet 43) pos: 3.700, 4.400
+> PE4                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.050
+> PE4                          Global        (Sheet 43) pos: 3.700, 4.300
+> PE7                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.550
+> PE7                          Global        (Sheet 43) pos: 2.900, 2.800
+> PE7-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 5.800
+> PE7-2                        Global        (Sheet 43) pos: 6.500, 4.300
+> PH0                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.700
+> PH0                          Global        (Sheet 43) pos: 6.500, 4.200
+> PH1                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.600
+> PH1                          Global        (Sheet 43) pos: 6.500, 4.100
+> PH2                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.500
+> PH2                          Global        (Sheet 43) pos: 6.500, 4.000
+> PH3                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.400
+> PH3                          Global        (Sheet 43) pos: 6.500, 3.900
+> PH4                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.300
+> PH4                          Global        (Sheet 43) pos: 6.500, 3.800
+> PH5                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.200
+> PH5                          Global        (Sheet 43) pos: 6.500, 3.700
+> PH6                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.100
+> PH6                          Global        (Sheet 43) pos: 6.500, 3.600
+> PH7                          Sheet BiDi    (Sheet 01) pos: 6.550, 5.000
+> PH7                          Global        (Sheet 43) pos: 6.500, 3.500
+> PJ0                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.350
+> PJ0                          Global        (Sheet 43) pos: 2.900, 3.600
+> PJ1                          Sheet BiDi    (Sheet 01) pos: 6.550, 3.350
+> PJ1                          Global        (Sheet 43) pos: 3.700, 4.600
+> PJ6                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.550
+> PJ6                          Global        (Sheet 43) pos: 2.900, 3.800
+> PJ7                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.450
+> PJ7                          Global        (Sheet 43) pos: 2.900, 3.700
+> PK0                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.250
+> PK0                          Global        (Sheet 43) pos: 2.900, 3.500
+> PK1                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.150
+> PK1                          Global        (Sheet 43) pos: 2.900, 3.400
+> PK2                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.050
+> PK2                          Global        (Sheet 43) pos: 2.900, 3.300
+> PK3                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.950
+> PK3                          Global        (Sheet 43) pos: 2.900, 3.200
+> PK4                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.850
+> PK4                          Global        (Sheet 43) pos: 2.900, 3.100
+> PK5                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.750
+> PK5                          Global        (Sheet 43) pos: 2.900, 3.000
+> PK7                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.650
+> PK7                          Global        (Sheet 43) pos: 2.900, 2.900
+> PM0                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.350
+> PM0                          Global        (Sheet 43) pos: 2.900, 4.600
+> PM1                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.250
+> PM1                          Global        (Sheet 43) pos: 2.900, 4.500
+> PM2                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.150
+> PM2                          Global        (Sheet 43) pos: 2.900, 4.400
+> PM3                          Sheet BiDi    (Sheet 01) pos: 5.200, 3.050
+> PM3                          Global        (Sheet 43) pos: 2.900, 4.300
+> PM4                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.950
+> PM4                          Global        (Sheet 43) pos: 2.900, 4.200
+> PM5                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.850
+> PM5                          Global        (Sheet 43) pos: 2.900, 4.100
+> PM6                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.750
+> PM6                          Global        (Sheet 43) pos: 2.900, 4.000
+> PM7                          Sheet BiDi    (Sheet 01) pos: 5.200, 2.650
+> PM7                          Global        (Sheet 43) pos: 2.900, 3.900
+> PP0                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.500
+> PP0                          Global        (Sheet 43) pos: 5.700, 3.000
+> PP1                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.600
+> PP1                          Global        (Sheet 43) pos: 5.700, 3.100
+> PP2                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.700
+> PP2                          Global        (Sheet 43) pos: 5.700, 3.200
+> PP3                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.800
+> PP3                          Global        (Sheet 43) pos: 5.700, 3.300
+> PP4                          Sheet BiDi    (Sheet 01) pos: 5.200, 4.900
+> PP4                          Global        (Sheet 43) pos: 5.700, 3.400
+> PP5                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.000
+> PP5                          Global        (Sheet 43) pos: 5.700, 3.500
+> PP6                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.100
+> PP6                          Global        (Sheet 43) pos: 5.700, 3.600
+> PP7                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.200
+> PP7                          Global        (Sheet 43) pos: 5.700, 3.700
+> PS0                          Sheet BiDi    (Sheet 01) pos: 6.550, 6.300
+> PS0                          Global        (Sheet 43) pos: 6.500, 4.800
+> PS1                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.100
+> PS1                          Global        (Sheet 43) pos: 5.700, 4.600
+> PS2                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.900
+> PS2                          Global        (Sheet 43) pos: 6.500, 3.400
+> PS3                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.700
+> PS3                          Global        (Sheet 43) pos: 6.500, 3.200
+> PS4                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.500
+> PS4                          Global        (Sheet 43) pos: 5.700, 5.000
+> PS5                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.400
+> PS5                          Global        (Sheet 43) pos: 5.700, 4.900
+> PS6                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.300
+> PS6                          Global        (Sheet 43) pos: 5.700, 4.800
+> PS7                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.200
+> PS7                          Global        (Sheet 43) pos: 5.700, 4.700
+> PT0                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.300
+> PT0                          Global        (Sheet 43) pos: 5.700, 3.800
+> PT1                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.400
+> PT1                          Global        (Sheet 43) pos: 5.700, 3.900
+> PT2                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.500
+> PT2                          Global        (Sheet 43) pos: 5.700, 4.000
+> PT3                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.600
+> PT3                          Global        (Sheet 43) pos: 5.700, 4.100
+> PT4                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.700
+> PT4                          Global        (Sheet 43) pos: 5.700, 4.200
+> PT5                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.800
+> PT5                          Global        (Sheet 43) pos: 5.700, 4.300
+> PT6                          Sheet BiDi    (Sheet 01) pos: 5.200, 5.900
+> PT6                          Global        (Sheet 43) pos: 5.700, 4.400
+> PT7                          Sheet BiDi    (Sheet 01) pos: 5.200, 6.000
+> PT7                          Global        (Sheet 43) pos: 5.700, 4.500
+> RESET                        Sheet BiDi    (Sheet 01) pos: 6.550, 5.900
+> RESET                        Global        (Sheet 43) pos: 6.500, 4.400
+> VCC                          Sheet BiDi    (Sheet 01) pos: 5.200, 1.350
+> VCC                          Global        (Sheet 43) pos: 2.900, 2.600
+> VCC-2                        Sheet BiDi    (Sheet 01) pos: 6.550, 6.200
+> VCC-2                        Global        (Sheet 43) pos: 6.500, 4.700
+> VRH                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.500
+> VRH                          Global        (Sheet 43) pos: 6.500, 3.000
+> VRL                          Sheet BiDi    (Sheet 01) pos: 6.550, 4.600
+> VRL                          Global        (Sheet 43) pos: 6.500, 3.100
+#End labels
+
+#End List

@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  9/8/2008-12:00:04
+#
+$MODULE R4-SM0805
+Li R4-SM0805
+Cd Resitance 4 pas
+Kw R
+$EndMODULE
+#
+$EndLIBDOC
