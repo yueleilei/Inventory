@@ -17,3 +17,5 @@ int read_line(char str[], int n)
     str[i] = '\0';
     return i;
 }
+
+/* yueleilei 2012-04-23 */
