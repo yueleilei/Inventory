@@ -31,13 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="inventory.c">
+		<Unit filename="source\inventory.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="readline.c">
+		<Unit filename="source\readline.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="readline.h" />
+		<Unit filename="source\readline.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
