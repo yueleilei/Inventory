@@ -55,15 +55,41 @@
      }
  }
 
-/*****************************************************************************
- * find_part:
- *
- *
- *****************************************************************************/
+/**********************************************************
+ * find_part: Looks up a part number in the inventory     *
+ *            array. Return the array index if the part   *
+ *            number is found; otherwise, return -1.      *
+ **********************************************************/
  void find_part(int number)
  {
     int i;
+
+    for (i = 0; i < num_parts; i++)
+    {
+        if (inventory[i].number == number)
+        {
+            return i;
+        }
+    }
+    return -1;
  }
 
+/**********************************************************
+ * insert: Prompts the user for information about a new   *
+ *         part and then inserts the part into the        *
+ *         database. Prints an error message and returns  *
+ *         prematurely if the part already exists or the  *
+ *         database is full.                              */
+ void insert(void)
+ {
+     int part_number;
 
+     if (num_parts == MAX_PARTS)
+     {
+         printf("Database is full; can't add more parts,\n");
+         return;
+     }
+
+     printf()
+ }
 
