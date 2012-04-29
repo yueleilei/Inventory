@@ -1,2 +1,3 @@
-Yueleilei design file to test github.
+Use C language write a inventory management.
+
 
