@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1335183406 source:f:\test-project\inventory\source\readline.c
+	<ctype.h>
+	<stdio.h>
+	"readline.h"
+
+1335183344 f:\test-project\inventory\source\readline.h
+
+1335670472 source:f:\test-project\inventory\source\inventory.c
+	<stdio.h>
+	"readline.h"
+

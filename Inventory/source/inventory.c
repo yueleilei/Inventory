@@ -1,25 +1,25 @@
 /* Maintains a parts database (arry version) */
 
- #include <stdio.h>
- #include "readline.h"
+#include <stdio.h>
+#include "readline.h"
 
- #define NAME_LEN 25
- #define MAX_PARTS 100
+#define NAME_LEN 25
+#define MAX_PARTS 100
 
- struct part
- {
+struct part
+{
      int number;
      char name[NAME_LEN+1];
      int on_hand;
- } inventory[MAX_PARTS];
+} inventory[MAX_PARTS];
 
- int num_parts = 0; /* number of parts currently stored */
+int num_parts = 0; /* number of parts currently stored */
 
- int find_part(int number);
- void insert(void);
- void search(void);
- void update(void);
- void print(void);
+int find_part(int number);
+void insert(void);
+void search(void);
+void update(void);
+void print(void);
 
 /**********************************************************
  * main: Prompts the user to enter an operation code,     *                                                                   *
@@ -28,51 +28,47 @@
  *       command 'q', Prints an error message if the user *
  *       enters an illeagal code.                         *
  **********************************************************/
- int main()
- {
-     char code;
+int main()
+{
+    char code;
 
-     for(;;)
-     {
-         printf("Enter operation code: ");
-         scanf(" %c", &code);
-         while (getchar() != '\n') /* skips to end of line */
+    for(;;)
+    {
+        printf("Enter operation code: ");
+        scanf(" %c", &code);
+        while (getchar() != '\n') /* skips to end of line */
              ;
-         switch (dode)
-         {
-             case 'i': insert();
+        switch (code)
+        {
+            case 'i': insert();
                        break;
-             case 's': search();
+            case 's': search();
                        break;
-             case 'u': update();
+            case 'u': update();
                        break;
-             case 'p': print();
+            case 'p': print();
                        break;
-             case 'q': return 0;
-             default:  printf("Illeagal code\n";)
-         }
-         printf("\n");
-     }
- }
+            case 'q': return 0;
+            default:  printf("Illeagal code\n");
+        }
+        printf("\n");
+    }
+}
 
 /**********************************************************
  * find_part: Looks up a part number in the inventory     *
  *            array. Return the array index if the part   *
  *            number is found; otherwise, return -1.      *
  **********************************************************/
- void find_part(int number)
- {
+int find_part(int number)
+{
     int i;
 
     for (i = 0; i < num_parts; i++)
-    {
         if (inventory[i].number == number)
-        {
             return i;
-        }
-    }
     return -1;
- }
+}
 
 /**********************************************************
  * insert: Prompts the user for information about a new   *
@@ -80,8 +76,8 @@
  *         database. Prints an error message and returns  *
  *         prematurely if the part already exists or the  *
  *         database is full.                              */
- void insert(void)
- {
+void insert(void)
+{
      int part_number;
 
      if (num_parts == MAX_PARTS)
@@ -91,7 +87,7 @@
      }
 
      printf("Enter part number: ");
-     scanf("d%", &part_number);
+     scanf("%d", &part_number);
 
      if (find_part(part_number) >= 0)
      {
@@ -101,11 +97,11 @@
 
      inventory[num_parts].number = part_number;
      printf("Enter part name: ");
-     readline(inventory[num_parts].number, NAME_LEN);
+     read_line(inventory[num_parts].name, NAME_LEN);
      printf("Enter quantity on hand: ");
      scanf("%d", &inventory[num_parts].on_hand);
      num_parts++;
- }
+}
 
  /*********************************************************
   * search: Prompts the user to enter a part number, then *
@@ -118,6 +114,7 @@ void search(void)
 {
     int i, number;
 
+    printf("Enter part number: ");
     scanf("%d", &number);
     i = find_part(number);
     if (i >= 0)
@@ -131,7 +128,49 @@ void search(void)
     }
 }
 
+/**********************************************************
+ * update: Prompts the user to enter a part number.       *
+ *         Prints an error message if the part doesn't    *
+ *         exits; other wise, prompts the user to enter   *
+ *         change in quantity on hand and updates the     *
+ *         database.                                      */
+void update(void)
+{
+    int i, number, change;
 
+    printf("Enter part number: ");
+    scanf("%d", &number);
+    i = find_part(number);
+    if (i >= 0)
+    {
+        printf("Enter change in quatity on hand:");
+        scanf("%d", &change);
+        inventory[i].on_hand += change;
+    }
+    else
+    {
+        printf("Part not found.\n");
+    }
+}
 
+/**********************************************************
+ * print: Prints a listing of all parts in the database,  *
+ *        showing the part number, part name, and         *
+ *        quantity on hand. Parts are printed in the      *
+ *        database.                                       *
+ **********************************************************/
+
+void print(void)
+{
+    int i;
+
+    printf("Part Number  Part_name              "
+           "Quantity on Hand\n");
+    for(i=0; i < num_parts; i++)
+    {
+        printf("%7d     %-25s%11d\n", inventory[i].number,
+        inventory[i].name, inventory[i].on_hand);
+    }
+}
 
 
